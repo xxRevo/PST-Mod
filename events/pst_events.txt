@@ -1,0 +1,391 @@
+add_namespace = pst
+
+##Event: Suprise German Invasion!
+country_event = {
+ id = pst.1
+ title = pst.1.title
+ desc = pst.1.desc
+ picture = GFX_report_event_hungarian_soldiers
+ fire_only_once = yes
+ major = yes
+ trigger = {
+    has_war_with = GER
+	tag = SOV
+ }
+    mean_time_to_happen = { days = 1}
+	option = {
+		name = pst.1.a
+		ai_chance = { factor = 1}
+		add_timed_idea = {
+		    idea = SOV_disorganized_tank_crews
+			days = 30
+		}
+		add_timed_idea = { 
+		    idea = SOV_army_in_chaos 
+		    days = 45
+		
+	    }
+		add_timed_idea = {
+		    idea = SOV_shattered_retreat
+			days = 45
+		}
+	    add_timed_idea = { 
+		    idea = SOV_lack_of_officers 
+		    days = 150
+	    }
+	   add_timed_idea = { 
+		    idea = SOV_disorganized_airforce
+		    days = 150
+	    }
+	   
+		
+	}
+}
+
+##Event: Day Of Infamy
+news_event = {
+ id = pst.2
+ title = pst.2.title
+ desc = pst.2.desc
+ picture = GFX_news_event_generic_usa_treaty
+ fire_only_once = yes
+ major = yes
+ trigger = {
+    USA = {
+	    has_war_with = JAP
+	}
+ } 
+	mean_time_to_happen = { days = 1}
+	option = {
+		name = pst.2.a
+		ai_chance = { factor = 1}
+	}
+}
+
+
+##Event: Preparations For The Defence Of Moscow
+country_event = {
+ id = pst.3
+ title = pst.3.title
+ desc = pst.3.desc
+ picture = GFX_report_event_soviet_tanks
+ fire_only_once = yes
+ major = yes
+ trigger = {
+  surrender_progress > 0.25
+  tag = SOV
+ }	
+	mean_time_to_happen = { days = 1}
+	option = {
+		name = pst.3.a
+		ai_chance = { factor = 1}
+		add_war_support = 0.20
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SOV }
+    }
+	
+}
+
+##Event: Modernization Of The Red Army
+country_event = {
+ id = pst.4
+ title = pst.4.title
+ desc = pst.4.desc
+ picture = GFX_report_event_generic_factory
+ fire_only_once = yes
+ major = yes
+
+	trigger = {
+        surrender_progress > 0.12
+		tag = SOV
+    }
+	mean_time_to_happen = { days = 1}
+    option = {
+		name = pst.4.a
+		ai_chance = { factor = 1}
+		add_ideas = SOV_modernize_the_red_army
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 60000 producer = SOV }
+		add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 producer = SOV }
+		hidden_effect = {
+			    division_template = {
+				    name = "Conscript Regiment"
+					priority = 1
+					division_names_group = SOV_INF_01
+					regiments = {
+					    infantry = { x = 0 y = 0}
+						infantry = { x = 0 y = 1}
+						infantry = { x = 0 y = 2}
+						
+						infantry = { x = 1 y = 0}
+						infantry = { x = 1 y = 1}
+						infantry = { x = 1 y = 2}
+						
+						infantry = { x = 2 y = 0}
+						infantry = { x = 2 y = 1}
+						infantry = { x = 2 y = 2}
+						infantry = { x = 2 y = 3}
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+			}
+			219 = {
+					prioritize = { 6380 }
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"Conscript Regiment\" division_template = \"Conscript Regiment\" start_experience_factor = 0.1" 
+						owner = SOV
+					}
+			}
+	}
+}
+
+##Event: Plot To Assasinate Hitler Discovered
+country_event = {
+ id = pst.5
+ title = pst.5.title
+ desc = pst.5.desc
+ picture = GFX_report_event_germany_politician_handshake
+ fire_only_once = yes
+ major = yes
+    trigger = {
+      surrender_progress > 0.02
+	  tag = GER
+    }	mean_time_to_happen = { days = 1}
+	option = {
+		name = pst.5.a
+		ai_chance = { factor = 1}
+		add_war_support = -0.05
+	}
+}
+
+##Event: Onwards To Berlin Comrades!
+country_event = {
+ id = pst.6
+ title = pst.6.title
+ desc = pst.6.desc
+ picture = GFX_report_event_swedish_soldier
+ fire_only_once = yes
+ major = yes
+    trigger = {
+	    tag = SOV
+		GER = { surrender_progress > 0.15 }
+	}
+    mean_time_to_happen = { days = 1}
+	option = {
+	name = pst.5.a
+	ai_chance = { factor = 1}
+	}
+} 
+
+##Event: Endsieg
+country_event = {
+ id = pst.7
+ title = pst.7.title
+ desc = pst.7.desc
+ picture = GFX_report_event_german_volunteers
+ fire_only_once = yes
+ major = yes
+ trigger = {
+        tag = GER
+        surrender_progress > 0.10
+	}	mean_time_to_happen = { days = 1}
+	option = {
+		name = pst.7.a
+		ai_chance = { factor = 1}
+		add_timed_idea= { 
+        idea = GER_endsieg 
+        days = 60
+        }
+	}
+}
+
+##Event: Crusade On Bolshevism
+country_event = {
+ id = pst.8
+ title = pst.8.title
+ desc = pst.8.desc
+ picture = GFX_report_event_soviet_army_greeted
+ fire_only_once = yes
+ major = yes
+    trigger = {
+       tag = GER
+	   has_war_with = SOV
+    }	
+	mean_time_to_happen = { days = 1}
+	option = {
+		name = pst.8.a
+		ai_chance = { factor = 1}
+		add_timed_idea = { 
+		    idea = GER_crusade_on_bolshevism 
+		    days = 150
+	    }
+	
+	}
+
+}
+
+
+##Event: Totalen Krieg
+country_event = {
+ id = pst.10
+ title = pst.10.title
+ desc = pst.10.desc
+ picture = GFX_report_event_fascist_gathering
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 30}
+	trigger = {
+       tag = GER
+	   has_war_with = SOV
+	   date > 1943.1.1
+    }	
+	option = {
+		name = pst.10.a
+		ai_chance = { factor = 1}
+	    add_ideas = GER_totalen_krieg
+	}
+}
+
+##Event: Attack On Pearl Harbour
+country_event = {
+ id = pst.11
+ title = pst.11.title
+ desc = pst.11.desc
+ picture = GFX_report_event_usa_pearl_harbor_airphoto
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+	trigger = {
+	    tag = USA
+		has_war_with = JAP
+	}
+	
+	option = {
+		name = pst.11.a
+		ai_chance = { factor = 1}
+	    add_timed_idea = {
+		    idea = USA_pearl_harbour
+		    days = 60
+	    }
+	}
+}
+
+
+
