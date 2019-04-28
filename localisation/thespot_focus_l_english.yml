@@ -467,4 +467,5 @@
  IRE_professional_army:0 "Recruitment for Professional Army"
  IRE_professional_army_desc:0 "A recruitment drive in order to make our professional army bigger."
  IRE_stabilise_the_country:0 "Stabilise The Country"
- 
+ fighter_command_focus:0 "Instant Spitfire Research"
+ fighter_command_focus_desc:0 "Our first priority must be to control our own skies! It is hard to discern a more important area of military research than fighter development."
