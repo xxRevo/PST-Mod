@@ -258,3 +258,7 @@
  SOV_terrain_adaptation:0 "Terrain Adaptation"
  SOV_behind_the_enemy_lines_idea:0 "Behind The Enemy Lines"
  SOV_behind_the_enemy_lines:0 "Behind The Enemy Lines"
+ ENG_king_george_v_tt:0 "Will add a King George V-class battleship to the production queue %85 completed.\n"
+ uk_king_george_v:0 "King George V"
+ ENG_blood_toil_tears:0 "Blood Toil Tears"
+ uk_extra_tech_slot_2:0 "Extra Research Slot 2"

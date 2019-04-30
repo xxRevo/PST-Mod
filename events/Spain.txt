@@ -22,7 +22,6 @@ country_event = {
 
 	# FRANCO
 	option = {
-		ai_chance = { factor = 0 }
 		name = spain.9.b
 		set_politics = {
 			ruling_party = fascism
@@ -54,7 +53,6 @@ country_event = {
 	
 	option = { # Support Nationalists
 		name = spain.1.a
-		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
 			start_civil_war = {

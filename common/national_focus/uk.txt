@@ -274,7 +274,7 @@ focus_tree = {
 	focus = {
 		id = ENG_home_defence
 		prerequisite = { focus = uk_empire_focus }
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_AST_new_guard
 		x = -6
 		y = 1
 		offset = {
@@ -1503,11 +1503,11 @@ focus_tree = {
 	focus = {
 		id = uk_waves_focus
 		prerequisite = { focus = ENG_secure_the_imperial_shipping_routes }
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_goal_FRA_World_Revolution
 		x = 1
 		y = 2
 		relative_position_id = ENG_secure_the_imperial_shipping_routes
-		cost = 7.9
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1607,6 +1607,72 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = uk_king_george_v
+		prerequisite = { focus = uk_battleship_focus }
+		icon = GFX_goal_BEL_Battleship_Investements
+		x = 1
+		y = 2
+		relative_position_id = uk_waves_focus
+		cost = 5
+		available = {
+		    date > 1940.6.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		navy_experience = 50   
+		    custom_effect_tooltip = ENG_king_george_v_tt
+		    create_equipment_variant = {
+				name = "King George V-class"
+				type = ship_hull_heavy_3
+				name_group = ENG_BB_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = heavy_ship_engine_2
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_heavy_battery_2
+					mid_1_custom_slot = ship_secondaries_2
+					mid_2_custom_slot = empty
+					mid_3_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_heavy_3
+						creator = "ENG" 
+						version_name = "King George V-class"
+					}
+					name = "King George V" 
+					requested_factories = 1
+					progress = 0.85
+					amount = 1
+				}
+			}
+			if = {
+				limit = {
+					not = { has_tech = improved_ship_hull_heavy }
+				}
+				set_technology = {
+					improved_ship_hull_heavy = 1
+				}
+			}
+		}
+		
+	}
+	
 	focus = {
 		id = uk_amphibious_focus
 		prerequisite = { focus = ENG_secure_the_imperial_shipping_routes }
@@ -3971,409 +4037,7 @@ focus_tree = {
 
 	### END ROAD TO WAR WITH GERMANY ###
 
-	### SCANDINAVIAN BRANCH ####
-focus = { 
-id = ENG_eagleclass
-icon = GFX_focus_generic_navy_battleship2
-x = 48
-y = 3
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_commonwealthnavalagreement } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for The Mediterranean monster
-focus = { 
-id = ENG_themediterraneanmonster
-icon = GFX_goal_generic_navy_battleship
-x = 53
-y = 3
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_heavyguns } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Prepare for U-Boats
-focus = { 
-id = ENG_prepareforuboats
-icon = GFX_focus_attack_germany
-x = 46
-y = 3
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_commonwealthnavalagreement } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Raiding tactics
-focus = { 
-id = ENG_raidingtactics
-icon = GFX_goal_generic_wolf_pack
-x = 54
-y = 5
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_submarineraidingfleet } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Naval Rearmament III
-focus = { 
-id = ENG_navalrearmamentiii
-icon = GFX_goal_continuous_naval_production
-x = 49
-y = 4
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_eagleclass } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Naval Rearmament II
-focus = { 
-id = ENG_navalrearmamentii
-icon = GFX_goal_generic_construct_naval_dockyard
-x = 40
-y = 4
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_americanships } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for The storm in the East
-focus = { 
-id = ENG_thestormintheeast
-icon = GFX_focus_attack_japan
-x = 47
-y = 5
-cost = 3
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_prepareforuboats } 
-ai_will_do = { 
- factor = 1
- } 
-bypass = { 
-date > 1940.1.1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for American Naval Research
-focus = { 
-id = ENG_americannavalresearch
-icon = GFX_goal_tfv_generic_tech_sharing
-x = 41
-y = 5
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_americanships } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for American Repair Stations
-focus = { 
-id = ENG_americanrepairstations
-icon = GFX_focus_eng_unite_the_anglosphere
-x = 47
-y = 1
-cost = 5
-available_if_capitulated = yes 
-ai_will_do = { 
- factor = 1
- } 
-available = { 
-date > 1940.1.1
- } 
-completion_reward = { 
-add_ideas = ENG_king_edward
- } 
-
- } 
-
-#Focus for Expand The Repair Yards
-focus = { 
-id = ENG_expandtherepairyards
-icon = GFX_goal_generic_build_navy
-x = 51
-y = 3
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_commonwealthnavalagreement } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_ideas = ENG_king_edward
- } 
-
- } 
-
-#Focus for American Ships
-focus = { 
-id = ENG_americanships
-icon = GFX_focus_chi_mission_to_the_us
-x = 41
-y = 3
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_commonwealthnavalagreement } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Heavy Guns
-focus = { 
-id = ENG_heavyguns
-icon = GFX_goal_unknown
-x = 53
-y = 2
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_navalrearmament } 
-mutually_exclusive = { focus = ENG_heavyarmor } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Heavy Armor
-focus = { 
-id = ENG_heavyarmor
-icon = GFX_goal_unknown
-x = 56
-y = 2
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_navalrearmament } 
-mutually_exclusive = { focus = ENG_heavyguns } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Submarine Raiding Fleet
-focus = { 
-id = ENG_submarineraidingfleet
-icon = GFX_goal_generic_navy_anti_submarine
-x = 52
-y = 4
-cost = 5
-available_if_capitulated = yes 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Submarine Production
-focus = { 
-id = ENG_submarineproduction
-icon = GFX_goal_generic_production2
-x = 50
-y = 5
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_submarineraidingfleet } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Naval Rearmament
-focus = { 
-id = ENG_navalrearmament
-icon = GFX_goal_continuous_naval_production
-x = 50
-y = 1
-cost = 5
-available_if_capitulated = yes 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-random_owned_controlled_state = { limit = { free_building_slots = { building = dockyard size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 4 add_building_construction = { type = dockyard level = 4 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
- } 
-
- } 
-
-#Focus for Battleship focus
-focus = { 
-id = ENG_battleshipfocus
-icon = GFX_focus_generic_navy_battleship2
-x = 45
-y = 2
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_navalrearmament } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 1 category = radar_tech }
- } 
-
- } 
-
-#Focus for Commonwealth Naval Agreement
-focus = { 
-id = ENG_commonwealthnavalagreement
-icon = GFX_focus_AST_rats_tobruk
-x = 48
-y = 2
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_navalrearmament } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-random_owned_controlled_state = { limit = { free_building_slots = { building = dockyard size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = dockyard level = 2 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
- } 
-
- } 
-
-#Focus for Destroyer Focus
-focus = { 
-id = ENG_destroyerfocus
-icon = GFX_focus_generic_coastal_fort
-x = 42
-y = 2
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_navalrearmament } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Sun never sets in the sea
-focus = { 
-id = ENG_sunneversetsinthesea
-icon = GFX_goal_generic_navy_doctrines_tactics
-x = 43
-y = 4
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_commonwealthnavalagreement } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Sicily Class
-focus = { 
-id = ENG_sicilyclass
-icon = GFX_focus_generic_destroyer
-x = 56
-y = 3
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_heavyarmor } 
-ai_will_do = { 
- factor = 1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
-
-#Focus for Hit and Sink
-focus = { 
-id = ENG_hitandsink
-icon = GFX_focus_attack_italy
-x = 45
-y = 5
-cost = 5
-available_if_capitulated = yes 
-prerequisite = { focus = ENG_prepareforuboats } 
-ai_will_do = { 
- factor = 1
- } 
-bypass = { 
-date > 1939.1.1
- } 
-completion_reward = { 
-add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
- } 
-
- } 
+ 
 
 	focus = {
 		id = ENG_norwegian_intervention
