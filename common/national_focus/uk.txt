@@ -291,7 +291,6 @@ focus_tree = {
 		}	
 		completion_reward = {
 			add_war_support = 0.05
-			custom_effect_tooltip = GDU_homedefense_tt
 			# Ipswich
 		   hidden_effect = { 
 			125 = {
@@ -3764,7 +3763,6 @@ focus_tree = {
 				}
 				add_political_power = 150 
 			}
-			add_timed_idea = { idea = eng_blood_toil_tears_idea days = 365 } 
 		}
 	}
 	
@@ -3917,62 +3915,6 @@ focus_tree = {
 	### GERMAN WAR ###
 
 	# START IRAQ/IRAN/USSR INTERVENTION #
-
-	focus = {
-		id = uk_iraq_focus
-		available = {
-
-		} 
-
-		bypass = {
-			IRQ = { exists = no }
-		}
-
-		will_lead_to_war_with = IRQ
-		prerequisite = { focus = uk_service_focus }
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = 0
-		y = 1
-		offset = {
-			x = 1
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
-		}
-		relative_position_id = uk_service_focus
-		cost = 1
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			unlock_decision_tooltip = GDU_eng_irq_invasion
-		}
-	}
-	focus = {
-		id = uk_iran_focus
-		available = {
-
-		} #UK at war with fascist/commie. iran is fascist/commie
-
-		bypass = {
-			PER = { exists = no }
-		}
-
-		will_lead_to_war_with = PER
-		prerequisite = { focus = uk_iraq_focus }
-		icon = GFX_goal_generic_forceful_treaty
-		x = 0
-		y = 1
-		relative_position_id = uk_iraq_focus
-		cost = 1
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			unlock_decision_tooltip = GDU_eng_countenance 
-		}
-	}
 
 	# END IRAQ/IRAN/USSR INTERVENTION #
 
