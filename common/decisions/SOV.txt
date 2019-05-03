@@ -1496,49 +1496,7 @@ SOV_great_patriotic_war = {
 }
 
 operations = {
-    SOV_develop_the_is_tank = {
-	    icon = generic_tank
-		available = {
-		    original_tag = SOV
-			date > 1941.1.1
-		}
-	    cost = 50
-		visible = {
-		    original_tag = SOV
-			always = yes
-		}
-	    fire_only_once = yes
-	    complete_effect = {
-		    add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				name = mech_army_bonus
-				technology = advanced_heavy_tank
-			}
-		}
-	}
-    SOV_develop_the_is7_tank = {
-	    icon = generic_tank
-		available = {
-		    original_tag = SOV
-			date > 1942.1.1
-		}
-	    cost = 50
-		visible = {
-		    original_tag = SOV
-			always = yes
-		}
-	    fire_only_once = yes
-	    complete_effect = {
-		    add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				name = mech_army_bonus
-				technology = super_heavy_tank
-			}
-		}
-	}
-	
+
 	SOV_annex_iran = {
 		
 		icon = generic_army_support
@@ -1575,49 +1533,6 @@ operations = {
 		}
 	}
 
-	SOV_seize_manchuria = {
-
-		icon = generic_operation
-
-		allowed = {
-			original_tag = SOV
-		}
-
-		available = {
-			JAP = { has_completed_focus = JAP_pre_emptive_coup }
-			MAN = { is_puppet = no }
-			NOT = {
-				has_war_with = MAN
-			}
-		}
-
-		cost = 25
-		fire_only_once = yes
-		visible = {
-			MAN = { exists = yes }
-		}
-
-		complete_effect = {
-			create_wargoal = {
-				target = MAN
-				type = annex_everything
-			}			
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				MAN = {
-					is_ai = no
-				}
-				factor = 0 #we're mean but not that mean
-			}
-			modifier = {
-				threat < 0.25
-				factor = 0
-			}
-		}
-	}
 }
 
 political_actions = {

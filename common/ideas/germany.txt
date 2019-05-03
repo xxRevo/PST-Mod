@@ -3,7 +3,16 @@ ideas = {
 	country = {
 	
 	    
-		
+		GER_ss_recruitment_idea = {
+		    allowed = {
+			    always = no
+			}
+			removal_cost = -1
+			modifier = {
+            	conscription = 0.01
+			}
+			picture = waffen_ss
+		}
 		GER_scrap_capitals = {
 		    picture = escort_effort_focus
 			allowed = {

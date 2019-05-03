@@ -389,7 +389,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_office_of_scientific_research_and_development
-		icon = GFX_focus_research
+		icon = GFX_focus_USA_adult_education
 		x = 2
 		y = 1
 		prerequisite = { focus = USA_wpa }
@@ -526,7 +526,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_war_propaganda
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_focus_USA_propaganda_effort
 		prerequisite = { focus = USA_limited_intervention }
 		available = {
 			has_government = democratic
@@ -1766,7 +1766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_tank_experiments
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_focus_USA_develop_tank
 		x = 2
 		y = 2
 		prerequisite = { focus = USA_support_rock_island }
@@ -2360,7 +2360,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_liberty_ships
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_focus_USA_higgins_boats
 		prerequisite = { focus = USA_maritime_commission }
 		x = -3
 		y = 2
@@ -2379,7 +2379,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_bureau_of_ships
-		icon = GFX_goal_generic_build_navy
+		icon = GFX_focus_USA_form_us_maritime
 		x = 2
 		y = 1
 		cost = 10

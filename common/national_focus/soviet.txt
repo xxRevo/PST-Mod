@@ -138,7 +138,7 @@ focus_tree = {
 		relative_position_id = SOV_graveyard_of_our_enemies
 		prerequisite = {focus = SOV_graveyard_of_our_enemies}
 		cost = 5
-		icon = GFX_IRE_flyingcolumns
+		icon = GFX_goal_women_snipers
 		completion_reward = {
 		    add_ideas = SOV_behind_the_enemy_lines_idea
 		}
@@ -151,7 +151,7 @@ focus_tree = {
 		relative_position_id = SOV_great_patriotic_war_speech
 		prerequisite = {focus = SOV_graveyard_of_our_enemies}
 		cost = 5
-		icon = GFX_goal_HOL_night_fighter
+		icon = GFX_goal_women_pilots
 		completion_reward = {
 		    add_ideas = SOV_night_witches
 		    air_experience = 25
@@ -165,7 +165,7 @@ focus_tree = {
 	    y = 1
 		relative_position_id = SOV_great_patriotic_war_speech
 		cost = 5
-		icon = GFX_goal_state_economy
+		icon = GFX_goal_soviet_women_workers
 	    completion_reward = {
 		    add_ideas = SOV_organized_war_labour
 		}
@@ -688,7 +688,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_collectivist_propaganda
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_propaganda_soviet
 		prerequisite = { focus = SOV_stalin_constitution }
 		mutually_exclusive = { focus = SOV_positive_heroism }
 		x = -2
@@ -892,7 +892,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_restructured_government
-		icon = GFX_goal_support_communism
+		icon = GFX_goal_show_trial
 		prerequisite = { focus = SOV_positive_heroism }
 		x = 2
 		y = 1
@@ -1595,7 +1595,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_great_purge
-		icon = GFX_goal_purge
+		icon = GFX_goal_stalin_paranoia
 		available = {
 			NOT = { has_country_flag = counter_purge }
 			has_government = communism
@@ -1842,7 +1842,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_lessons_of_war
-		icon = GFX_goal_generic_military_sphere
+		icon = GFX_goal_soviet_military_advisors
 		prerequisite = { focus = SOV_nkvd_divisions focus = SOV_military_reorganization }
 		available = {
 			OR = {
@@ -1897,9 +1897,10 @@ focus_tree = {
 	}
 
 
+	
 	focus = {
-		id = SOV_research_city_experiment
-		icon = GFX_focus_wonderweapons
+		id = SOV_closed_city_network
+		icon = GFX_focus_research
 		prerequisite = { focus = SOV_lessons_of_war }
 		available = {
 
@@ -1907,61 +1908,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_lessons_of_war
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = nuclear_bonus
-				bonus = 1
-				category = nuclear
-			}
-		}
-	}
-
-
-	focus = {
-		id = SOV_diversify_the_programme
-		icon = GFX_focus_rocketry
-		prerequisite = { focus = SOV_research_city_experiment }
-		available = {
-
-		}
-		x = 0
-		y = 1
-		relative_position_id = SOV_research_city_experiment
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = secret
-				bonus = 1
-				uses = 2
-				category = rocketry
-			}
-		}
-	}
-
-
-	focus = {
-		id = SOV_closed_city_network
-		icon = GFX_focus_research
-		prerequisite = { focus = SOV_diversify_the_programme }
-		available = {
-
-		}
-		x = 0
-		y = 1
-		relative_position_id = SOV_diversify_the_programme
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1977,7 +1923,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_smersh
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_goal_trotskyite_unite
 		prerequisite = { focus = SOV_great_purge }
 		available = {
 			OR = {

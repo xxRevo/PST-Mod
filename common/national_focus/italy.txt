@@ -1117,7 +1117,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_victoryinETH
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_ITA_victory_by_any_means
 		available = {
 			OR = {
 				owns_state = 271

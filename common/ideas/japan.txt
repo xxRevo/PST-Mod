@@ -294,21 +294,6 @@ ideas = {
 			}
 		}
 
-		JAP_duplicate_research_efforts = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_duplicate_research
-			
-			research_bonus = { air_equipment = -0.10 }
-		}
 
 		JAP_militarism = {
 			allowed = {
@@ -327,8 +312,6 @@ ideas = {
 				war_support_factor = 0.2
 				mobilization_laws_cost_factor = -0.25
 				justify_war_goal_time = -0.2
-				research_speed_factor = -0.05
-				production_speed_industrial_complex_factor = -0.1
 			}
 		}
 

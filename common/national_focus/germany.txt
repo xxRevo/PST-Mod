@@ -67,7 +67,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_hermann_goring_werke
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_steel_works
 		dynamic = yes
 		prerequisite = { focus = GER_autarky }
 		x = 2
@@ -227,7 +227,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_coal_liquidization
-		icon = GFX_goal_generic_oil_refinery
+		icon = GFX_goal_oil_research
 		prerequisite = { focus = GER_autarky }
 		x = 0
 		y = 1
@@ -833,7 +833,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_army_innovation_2
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_ger_augustprogram
 		prerequisite = { focus = GER_soviet_treaty }
 		x = 0
 		y = 2
@@ -870,6 +870,19 @@ focus_tree = {
 			}
 			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
 		}
+	}
+	
+	focus = {
+	    id = GER_ss_recruitment
+		prerequisite = {focus = GER_army_innovation_2}
+		relative_position_id = GER_army_innovation_2
+		x = -4
+		y = 1
+		cost = 10
+		completion_reward = {
+		    add_ideas = GER_ss_recruitment_idea
+		}
+		icon = GFX_goal_waffen_SS_focus
 	}
 	
 	focus = {
@@ -947,84 +960,7 @@ focus_tree = {
 		    army_experience = 50
 		}
 	}
-	focus = {
-		id = GER_rocketry_focus
-		icon = GFX_focus_rocketry
-		prerequisite = { focus = GER_extra_tech_slot }
-		x = 0
-		y = 1
-		relative_position_id = GER_extra_tech_slot
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = GER_rocketry_idea
-			add_tech_bonus = {
-				name = GER_rocketry_focus
-				bonus = 2
-				uses = 1
-				category = rocketry
-			}
-			add_tech_bonus = {
-				name = GER_rocketry_focus
-				bonus = 1
-				uses = 2
-				category = jet_technology
-			}
-		}
-	}
-
-	focus = { 
-	    id = GER_peenemunde
-		prerequisite = { focus = GER_rocketry_focus }
-        relative_position_id = GER_wunderwaffe
-		x = 2
-		y = 0
-		cost = 5
-		icon = GFX_focus_ger_oppose_hitler
-		completion_reward = {
-		    add_tech_bonus = {
-			    name = GER_rocketry_focus
-				bonus = 2
-				uses = 2
-				category = rocketry
-			}
-		}
-	}
-	focus = {
-		id = GER_wunderwaffe
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = GER_rocketry_focus }
-		x = 0
-		y = 1
-		relative_position_id = GER_rocketry_focus
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 2
-				uses = 1
-				technology = atomic_research
-			}
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 3
-				uses = 1
-				technology = nukes
-			}
-		}
-	}
-   
+	
 	focus = {
 		id = GER_rhineland
 		icon = GFX_goal_generic_military_sphere

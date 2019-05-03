@@ -14,7 +14,27 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
-	}		
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_waffen_ss"
+		texturefile = "gfx/interface/ideas/idea_Wewelsburg_ss.dds"
+	}	
+
+    spriteType = {
+		name = "GFX_idea_trotsky_marches"
+		texturefile = "gfx/interface/ideas/idea_trotsky_marches.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_Hitleryouth"
+		texturefile = "gfx/interface/ideas/idea_Hitleryouth.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_goering_plan"
+		texturefile = "gfx/interface/ideas/idea_goering_plan.dds"
+	}	
 	
 	spriteType = {
 		name = "GFX_idea_generic_agrarian_society"

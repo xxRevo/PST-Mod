@@ -638,191 +638,44 @@ GER_vemork_hydroelectric_plant_category = {
 		}
 	    days_remove = 360
 	}
-
-}
-
-GER_case_anton_category = {
-
-	GER_case_anton = {
-
-		icon = generic_operation
-
-		available = {
-			original_tag = GER
-			has_government = fascism
-			any_country = {
-				original_tag = FRA
-				has_government = fascism
-				is_puppet_of = GER
-				NOT = { has_country_flag = case_anton }
-			}
-			divisions_in_state = { state = 31 size < 1 }
-			divisions_in_state = { state = 25 size < 1 }
-			divisions_in_state = { state = 22 size < 1 }
-			divisions_in_state = { state = 21 size < 1 }
-			divisions_in_state = { state = 32 size < 1 }
-			divisions_in_state = { state = 22 size < 1 }
-			divisions_in_state = { state = 26 size < 1 }
-			divisions_in_state = { state = 33 size < 1 }
-			divisions_in_state = { state = 20 size < 1 }
-			OR = {
-				ITA = { owns_state = 735 }
-				divisions_in_state = { state = 735 size < 1 }
-			}
-		}
-
-		cost = 50
-		fire_only_once = yes
-
-		visible = {
-			original_tag = GER
-			has_government = fascism
-			any_country = {
-				original_tag = FRA
-				has_government = fascism
-				is_subject_of = GER
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				ITA = { has_capitulated = no }
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = GER_case_anton_tt
-			hidden_effect = {
-				random_other_country = {
-					limit = {
-						original_tag = FRA
-						has_government = fascism
-						is_subject_of = GER
-					}
-					set_country_flag = case_anton
-				}
-			}
-		}
-	}
-}
-
-
-
-#Category only allowed for GER
-GER_military_buildup = {
-
-	GER_develop_the_tiger_tank = {
-	    icon = generic_tank
-		available = {
-		    original_tag = GER
-			date > 1940.1.1
-		}
-	    cost = 50
-		visible = {
-		    always = yes
-		}
-	    fire_only_once = yes
-	    complete_effect = {
-		    add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				name = mech_army_bonus
-				technology = improved_heavy_tank
-			}
-		}
-	}
-	GER_develop_the_kingtiger_tank = {
-	    icon = generic_tank
-		available = {
-		    original_tag = GER
-			date > 1941.1.1
-		}
-	    cost = 50
-		visible = {
-		    always = yes
-		}
-	    fire_only_once = yes
-	    complete_effect = {
-		    add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				name = mech_army_bonus
-				technology = advanced_heavy_tank
-			}
-		}
-	}
-	GER_develop_the_maus_tank = {
-	    icon = generic_tank
+	
+	GER_jet_experiments = {
+	    icon = generic_research
 		available = {
 		    original_tag = GER
 			date > 1942.1.1
 		}
-	    cost = 50
-		visible = {
-		    always = yes
-		}
-	    fire_only_once = yes
-	    complete_effect = {
-		    add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				name = mech_army_bonus
-				technology = super_heavy_tank
-			}
-		}
-	}
-
-	
-	GER_plan_z = {
-
-		icon = generic_naval
-
-		available = {
-			has_navy_size = {
-				archetype = battleship
-				size > 9
-			}
-			has_navy_size = {
-				archetype = battle_cruiser
-				size > 2
-			}
-			has_navy_size = {
-				archetype = carrier
-				size > 3
-			}
-			has_navy_size = {
-				archetype = heavy_cruiser
-				size > 19
-			}
-			has_navy_size = {
-				archetype = light_cruiser
-				size > 19
-			}
-			has_navy_size = {
-				archetype = destroyer
-				size > 99
-			}
-		}
-
+		cost = 25
 		fire_only_once = yes
-		days_mission_timeout = 1800
-
-		activation = {
-			has_completed_focus = GER_plan_z
+		remove_effect = {
+		    set_technology = { experimental_rockets = 1}
+			set_technology = { rocket_engines = 1}
 		}
-
-		
-		visible = {
-			has_completed_focus = GER_plan_z
-		}
-
-		complete_effect = {
-			add_war_support = 0.05
-			navy_experience = 150
-		}
+		days_remove = 180
+	}
 	
+	GER_me262_development = {
+	    icon = generic_research
+		available = {
+		    original_tag = GER
+			date > 1943.1.1
+			has_tech = rocket_engines
+		}
+		cost = 25
+		fire_only_once = yes
+		remove_effect = {
+		    set_technology = { jet_engines = 1}
+			set_technology = { jet_fighter1 = 1}
+		}
+		days_remove = 180
 	}
 }
+
+
+
+
+
+
 
 special_projects = {
     
