@@ -17,6 +17,16 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_idea_jap_co_prosper"
+		texturefile = "gfx/interface/ideas/JAP_co_prosper.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_no_one_left_behind"
+		texturefile = "gfx/interface/ideas/idea_usa_no_one_left_behind.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_waffen_ss"
 		texturefile = "gfx/interface/ideas/idea_Wewelsburg_ss.dds"
 	}	

@@ -1,3 +1,400 @@
+
+USA_pacific_campaign = {
+    USA_operation_detachment = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    USA = {controls_state = 638}
+			USA = {controls_state = 648}
+			NOT = {has_idea = USA_operation_idea}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_operation_idea
+				days = 30
+			}
+		} 
+	}
+	
+	USA_operation_iceberg = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    USA = {controls_state = 638}
+			USA = {controls_state = 645}
+			NOT = {has_idea = USA_operation_idea}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_operation_idea
+				days = 30
+			}
+		} 
+	}
+	
+	USA_operation_sandcrab = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    NOT = {USA = {controls_state = 650}} 
+			NOT = {has_idea = USA_operation_idea}
+			
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_operation_idea
+				days = 30
+			}
+		} 
+	}
+	
+	USA_operation_downfall = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    USA = {controls_state = 526}
+			USA = {controls_state = 645}
+			NOT = {has_idea = USA_operation_idea}
+			
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_operation_idea
+				days = 30
+			}
+		} 
+	}
+	
+	USA_nuke_hiroshima = {
+	    icon = generic_ignite_civil_war
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    USA = {controls_state = 526}
+			USA = {controls_state = 645}
+			has_idea = robert_oppenheimer
+			has_completed_focus = USA_manhattan_project
+			
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 120
+		remove_effect = {
+		    custom_effect_tooltip = USA_atomic_bomb_hiroshima
+			launch_nuke = {
+                province = 1092
+                state = 529
+                controller = USA
+                use_nuke = yes
+            }
+		} 
+	}
+	
+	USA_nuke_nagasaki = {
+	    icon = generic_ignite_civil_war
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    USA = {controls_state = 526}
+			USA = {controls_state = 645}
+			has_idea = robert_oppenheimer
+			has_completed_focus = USA_manhattan_project
+			
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 120
+		remove_effect = {
+		    custom_effect_tooltip = USA_atomic_bomb_nagasaki
+			launch_nuke = {
+                province = 9950
+                state = 528
+                controller = USA
+                use_nuke = yes
+            }
+		} 
+	}
+    
+}
+
+USA_atlantic_campaign = {
+    USA_focus_on_atlantic_theater = {
+	    icon = generic_operation
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    RAJ = {controls_state = 431}
+			USA = {controls_state = 629}
+			USA = {controls_state = 631}
+			AST = {controls_state = 520}
+			or = {
+			    USA = {controls_state = 648}
+				USA = {controls_state = 646}
+				USA = {controls_state = 645}
+				USA = {controls_state = 526}	
+				USA = {controls_state = 524}
+				date > 1943.1.1
+			}
+			
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    remove_ideas = {
+			    idea = USA_real_threat
+			}
+		} 
+		
+	}
+	
+	USA_operation_torch = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    NOT = {has_idea = USA_operation_idea}
+			NOT = {has_idea = USA_real_threat}
+			NOT = {FRA = {controls_state = 461} }
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_operation_idea
+				days = 30
+			}
+			custom_effect_tooltip = USA_deploy_light_tanks
+			hidden_effect = {
+					division_template = {
+						name = "Heavy Cavalry Division"
+						priority = 2
+						division_names_group = ROM_INF_01
+						regiments = {
+							light_armor = { x = 0 y = 0 }
+							light_armor = { x = 0 y = 1 }
+							light_armor = { x = 0 y = 2 }
+				
+		    	   		 	light_armor = { x = 1 y = 0 }
+							light_armor = { x = 1 y = 1 }
+							light_armor = { x = 1 y = 2 }
+				
+		    	   		 	motorized = { x = 2 y = 0 }
+							motorized = { x = 2 y = 1 }
+							motorized = { x = 2 y = 2 }
+							motorized = { x = 2 y = 3 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+							recon = { x = 0 y = 1 }
+						}
+					}
+					division_template = {
+				    name = "United States Marine Corps"
+					priority = 2
+					division_names_group = ROM_INF_01
+					regiments = {
+					    infantry = { x = 0 y = 0}
+						infantry = { x = 0 y = 1}
+						infantry = { x = 0 y = 2}
+						
+						infantry = { x = 1 y = 0}
+						infantry = { x = 1 y = 1}
+						infantry = { x = 1 y = 2}
+						
+						infantry = { x = 2 y = 0}
+						infantry = { x = 2 y = 1}
+						infantry = { x = 2 y = 2}
+						infantry = { x = 2 y = 3}
+						
+						artillery_brigade = {x = 3 y = 0}
+						artillery_brigade = {x = 3 y = 1}
+						artillery_brigade = {x = 3 y = 2}
+						artillery_brigade = {x = 3 y = 3}
+						
+						infantry = {x = 4 y = 0}
+						infantry = {x = 4 y = 1}
+						infantry = {x = 4 y = 2}
+						infantry = {x = 4 y = 3}
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+					
+				}
+				357 = {
+					prioritize = { 6732 }
+					create_unit = {
+						division = "name = \"4. Heavy Cavalry Division\" division_template = \"Heavy Cavalry Division\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					create_unit = {
+						division = "name = \"3. Heavy Cavalry Division\" division_template = \"Heavy Cavalry Division\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					create_unit = {
+						division = "name = \"2. Heavy Cavalry Division\" division_template = \"Heavy Cavalry Division\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					create_unit = {
+						division = "name = \"1. Heavy Cavalry Division\" division_template = \"Heavy Cavalry Division\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					
+					create_unit = {
+						division = "name = \"4. USMC Division\" division_template = \"United States Marine Corps\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					
+					create_unit = {
+						division = "name = \"3. USMC Division\" division_template = \"United States Marine Corps\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					
+					create_unit = {
+						division = "name = \"2. USMC Division\" division_template = \"United States Marine Corps\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+					
+					create_unit = {
+						division = "name = \"1. USMC Division\" division_template = \"United States Marine Corps\" start_experience_factor = 1.0" 
+						owner = USA
+					}
+				}
+		} 
+		
+	}
+	
+	USA_operation_husky = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    NOT = {ITA = {controls_state = 448}} 
+			NOT = {has_idea = USA_operation_idea}
+			NOT = {has_idea = USA_real_threat}
+			
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_operation_idea
+				days = 30
+			}
+		} 
+	}
+	
+	USA_d_day = {
+	    icon = generic_army_support
+		allowed = {
+		    original_tag = USA
+		}
+		visible = {
+		    has_war = yes
+		}
+		available = {
+		    NOT = {has_idea = USA_operation_idea}
+			NOT = {has_idea = USA_real_threat}
+			NOT = {ITA = {controls_state = 448} }
+			FRA = {controls_state = 461}
+			or = {
+			    NOT = {ITA = {controls_state = 115} }
+				NOT = {ITA = {controls_state = 114} }
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+		    add_timed_idea = {
+			    idea = USA_dday
+				days = 30
+			}
+			ENG = {
+			    add_timed_idea = {
+			    idea = USA_dday
+				days = 30
+			    }
+			}
+			AST = {
+			    add_timed_idea = {
+			    idea = USA_dday
+				days = 30
+			    }
+			}
+			RAJ = {
+			    add_timed_idea = {
+			    idea = USA_dday
+				days = 30
+			    }
+			}
+			CAN = {
+			    add_timed_idea = {
+			    idea = USA_dday
+				days = 30
+			    }
+			}
+			SAF = {
+			    add_timed_idea = {
+			    idea = USA_dday
+				days = 30
+			    }
+			}
+		} 
+		
+	}
+}
+
+
 USA_aid_britain = {
 	USA_establish_personal_communication_with_former_naval_person = {
 

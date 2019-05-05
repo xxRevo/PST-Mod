@@ -592,7 +592,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_exploit_mines
+			picture = goering_plan
 
 			modifier = {
 				production_speed_arms_factory_factor = 0.1

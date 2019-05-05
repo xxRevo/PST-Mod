@@ -22,12 +22,12 @@ country_event = {
 		}
 		add_timed_idea = { 
 		    idea = SOV_army_in_chaos 
-		    days = 45
+		    days = 30
 		
 	    }
 		add_timed_idea = {
 		    idea = SOV_shattered_retreat
-			days = 45
+			days = 30
 		}
 	    add_timed_idea = { 
 		    idea = SOV_lack_of_officers 
@@ -382,8 +382,9 @@ country_event = {
 		ai_chance = { factor = 1}
 	    add_timed_idea = {
 		    idea = USA_pearl_harbour
-		    days = 60
+		    days = 90
 	    }
+		add_ideas = USA_real_threat
 	}
 }
 

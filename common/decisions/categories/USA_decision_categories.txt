@@ -3,6 +3,30 @@
 ################
 
 
+
+USA_atlantic_campaign = {
+    picture = GFX_decision_cat_generic_usarmy
+	icon = generic_democracy
+	allowed = {
+	    original_tag = USA
+	}
+	visible = {
+	    has_war = yes
+	}	
+}
+
+USA_pacific_campaign = {
+    picture = GFX_decision_cat_generic_usapacific
+	icon = generic_democracy
+	allowed = {
+	    original_tag = USA
+	}
+	visible = {
+	    has_war = yes
+	}	
+}
+
+
 USA_aid_britain = {
 
 	allowed = {
@@ -40,3 +64,5 @@ USA_intervention_mandate = {
 		}
 	}
 }
+
+

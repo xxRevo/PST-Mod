@@ -1263,7 +1263,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1307,7 +1307,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1351,7 +1351,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1390,7 +1390,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1429,7 +1429,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1464,7 +1464,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1500,7 +1500,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1536,7 +1536,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1574,7 +1574,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1607,7 +1607,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1640,7 +1640,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
