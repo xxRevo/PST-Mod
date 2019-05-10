@@ -57,15 +57,10 @@ USA_historical_plan = {
 		USA_wpa
 		USA_war_department
 		USA_air_war_plans_division
-		USA_war_plans_division
 		#1937
 		USA_agricultural_adjustment_act
 		USA_neutrality_act
-		USA_intervention_in_asia
-		USA_war_plan_orange
-		USA_intervention_in_europe
 		#1938
-		USA_war_plan_black
 		USA_strategic_bombing
 		USA_fair_labour_standards_act
 		USA_escort_fighters
@@ -81,7 +76,6 @@ USA_historical_plan = {
 		USA_military_construction
 		USA_two_ocean_navy_act
 		USA_selective_training_act
-		USA_destroyers_for_bases
 		#1941
 		USA_maritime_commission
 		USA_lend_lease_act

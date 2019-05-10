@@ -1614,7 +1614,7 @@ focus_tree = {
 		relative_position_id = uk_waves_focus
 		cost = 5
 		available = {
-		    date > 1940.6.1
+		    date > 1939.6.1
 		}
 		ai_will_do = {
 			factor = 1
@@ -3658,6 +3658,7 @@ focus_tree = {
 		available = { 
 			has_war_with = GER 
 			FRA = { has_capitulated = yes } 
+			NOT = {ENG = {controls_state = 446} }
 		}
 
 		continue_if_invalid = yes

@@ -12,6 +12,12 @@ spriteTypes = {
 	### new tfv nat spirit icons
 
 	spriteType = {
+		name = "GFX_idea_Standardpanzer"
+		texturefile = "gfx/interface/ideas/GER_Standardpanzer.dds"
+	}	
+	
+
+	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
 	}	
@@ -28,13 +34,9 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_waffen_ss"
-		texturefile = "gfx/interface/ideas/idea_Wewelsburg_ss.dds"
+		texturefile = "gfx/interface/ideas/GER_Schutzstaffel.dds"
 	}	
 
-    spriteType = {
-		name = "GFX_idea_trotsky_marches"
-		texturefile = "gfx/interface/ideas/idea_trotsky_marches.dds"
-	}
 
     spriteType = {
 		name = "GFX_idea_Hitleryouth"
@@ -415,6 +417,12 @@ spriteTypes = {
 		name = "GFX_idea_wilkies_new_deal"
 		texturefile = "gfx/interface/ideas/wilkies_new_deal.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_nation_of_wheels"
+		texturefile = "gfx/interface/ideas/idea_nation_of_wheels.dds"
+	}
+
 
     spriteType = {
 		name = "GFX_idea_generic_command_economy"
@@ -432,7 +440,7 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_triumphant_wills"
+		name = "GFX_idea_triumphant_will"
 		texturefile = "gfx/interface/ideas/triumphant_will.dds"
 	}		
 	

@@ -2360,6 +2360,9 @@ focus_tree = {
 		y = 2
 		icon = GFX_goal_BEL_Battleship_Investements
 		cost = 5
+		available = {
+		    date > 1939.1.1
+		}
 		completion_reward = {
 			custom_effect_tooltip = GER_bismarck_tt
 			
@@ -2414,6 +2417,9 @@ focus_tree = {
 		y = 2
 		icon = GFX_goal_BEL_Battleship_Investements
 		cost = 5
+		available = {
+		    date > 1939.1.1
+		}
 		completion_reward = {
 			custom_effect_tooltip = GER_bismarck_tt
 			

@@ -1321,7 +1321,6 @@ spriteTypes = {
 	SpriteType = { name = "GFX_TEX_support_weapons4_medium" texturefile = "gfx/interface/technologies/arms_HVY3_USA.dds" }
 	SpriteType = { name = "GFX_TEX_infantry_at_medium" texturefile = "gfx/interface/technologies/arms_AT1_USA.dds" }
 
-    SUPPORTS = 
 	SpriteType = {
 		name = "GFX_CHI_tech_support_medium"
 		texturefile = "gfx/interface/technologies/infantry/support_equipment/r56_tech_CHI_support_equipment_01.dds"

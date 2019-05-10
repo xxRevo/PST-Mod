@@ -683,7 +683,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 160
-			add_ideas = SOV_old_production_methods
 		}
 	}
 	focus = {
@@ -1117,24 +1116,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-	    id = SOV_military_modernization_program
-		prerequisite = {focus = SOV_peoples_commissariat}
-		relative_position_id = SOV_peoples_commissariat
-		x = 0
-		y = 1
-		cost = 10
-		icon = GFX_focus_generic_license_production
-		ai_will_do = {
-		    factor = 1
-		}
-		available = {
-		    date > 1940.6.1
-		}
-		completion_reward = {
-		    remove_ideas = SOV_old_production_methods
-		}
-	}
+
 
 	focus = {
 		id = SOV_anti_fascist_diplomacy

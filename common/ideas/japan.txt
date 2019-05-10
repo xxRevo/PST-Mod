@@ -309,9 +309,11 @@ ideas = {
 			picture = warrior_traditions_idea
 			
 			modifier = {
+			    production_speed_dockyard_factor = 0.20
 				war_support_factor = 0.2
 				mobilization_laws_cost_factor = -0.25
 				justify_war_goal_time = -0.2
+				
 			}
 		}
 
