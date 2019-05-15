@@ -1511,7 +1511,8 @@ operations = {
 		cost = 0
 		
 		available = {
-			has_global_flag = sov_yes_pact
+			date > 1941.1.1
+			ENG = {controls_state =446 }
 			tag = SOV
 		}
 		

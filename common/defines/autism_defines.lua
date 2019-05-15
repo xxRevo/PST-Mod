@@ -34,6 +34,8 @@ NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 70
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.10
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.39 -- air supply? 0.05 original but range is lower
 NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.03 -- Base speed of manpower mobilization  #in 1/1000 of 1 %
+NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.00
+
 
 -- production and recruitment
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 500000
@@ -67,6 +69,10 @@ NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
 NDefines.NMilitary.STRATEGIC_SPEED_BASE = 6.0
 NDefines.NMilitary.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.018
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
+
+---Navy
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.075 -- base % of convoys that get intercepted
+
 
 ---General Farming
 NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0

@@ -840,13 +840,13 @@ ideas = {
 				original_tag = ITA
 			}
 			
-			cost = 250
+			cost = 100
 						
 			research_bonus = {
-				cat_grand_battle_plan = 0.10
+				land_doctrine = 0.07
 			}
 			
-			traits = { grand_battle_plan_expert }
+			traits = { military_theorist }
 
 			ai_will_do = {
 				factor = 3

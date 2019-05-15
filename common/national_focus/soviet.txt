@@ -42,10 +42,10 @@ focus_tree = {
 	
 	focus = { 
 	    id = SOV_focus_on_tank_production
-		x = -2
-		y = -1
+		x = -3
+		y = 0
 		relative_position_id = SOV_improve_industry_in_urals
-		prerequisite = { focus = SOV_great_patriotic_war_speech }
+		prerequisite = { focus = SOV_focus_urban_combat_training }
 		cost = 5
 		icon = GFX_goal_RUS_armored_school
 		available = {
@@ -59,7 +59,7 @@ focus_tree = {
 	
 	focus = {
 	    id = SOV_focus_urban_combat_training
-		x = -4
+		x = -3
 		y = -1
 		relative_position_id = SOV_improve_industry_in_urals
 		prerequisite = { focus = SOV_great_patriotic_war_speech }
@@ -73,11 +73,10 @@ focus_tree = {
 	
 	focus = {
 	    id = SOV_terrain_adaptation
-	    x = -1
+	    x = 0
 		y = 1
 		relative_position_id = SOV_focus_on_tank_production
 		prerequisite = {focus = SOV_focus_on_tank_production}
-		prerequisite = {focus = SOV_focus_urban_combat_training}
 		icon = GFX_goal_RUS_Markov_plan
 		cost = 5
 		completion_reward = {

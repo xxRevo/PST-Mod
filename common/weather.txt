@@ -69,7 +69,7 @@ settings = {
 
   snowing = {
     # Amount of snow collected affects the visual snow on the map
-    snow_gain_on_snowing = 3.0
+    snow_gain_on_snowing = 6.0
     snow_gain_on_blizzard = 8.0
     snow_gain_max = 80.0
 
@@ -86,7 +86,7 @@ settings = {
     # Max temperature allowed for snowing / min temperature for highest chance of snowing.
     temperature = { 1.0 -10.0 }
 
-    weather_ground_snow_medium = { 20.0 40.0 }
+    weather_ground_snow_medium = { 15.0 40.0 }
     weather_ground_snow_high = { 40.0 1000.0 }
   }
 
@@ -99,7 +99,7 @@ settings = {
   chance_increase = {
     mud = { 20.0 0.10 }
     rain = { 1.75 0.25 }
-    snow = { 1.75 0.25 }
+    snow = { 2 0.25 }
     sandstorm = { 1.75 0.25 }
   }
 

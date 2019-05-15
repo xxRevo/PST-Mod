@@ -427,6 +427,7 @@ focus_tree = {
 				}
 			}
 			add_ideas = USA_limited_intervention
+			add_ideas = USA_military_investments
 			if = {
 				limit = {
 					OR = {
@@ -435,10 +436,7 @@ focus_tree = {
 					}
 				}
 			}
-			add_timed_idea = {
-			    idea = USA_military_investments
-				days = 1200
-			}
+			
 			else = {
 				add_political_power = 150 #refund if already at civilian economy
 			}
@@ -704,7 +702,7 @@ focus_tree = {
 		completion_reward = {
 		    add_timed_idea = {
 			    idea = USA_civilian_investments
-				days = 1440
+				days = 1100
 			}
 		}
 	}

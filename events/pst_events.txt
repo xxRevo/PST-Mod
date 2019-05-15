@@ -388,5 +388,73 @@ country_event = {
 	}
 }
 
+##Event: Szalasy Resistance
+country_event = {
+ id = pst.13
+ title = pst.13.title
+ desc = pst.13.desc
+ picture = GFX_report_event_ger_civil_war
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+	trigger = {
+	    tag = GER
+		controls_state = 90
+	}
+	
+	option = {
+		name = pst.13.a
+		ai_chance = { factor = 1}
+		add_manpower = -3000
+		add_equipment_to_stockpile = {
+           type = infantry_equipment
+            amount = -3000
+            producer = GER
+        }
+		86  = {
+		    damage_building = {
+			    type = infrastructure
+				damage = 3
+			}
+		}
+		87 = {
+		    damage_building = {
+			    type = infrastructure
+				damage = 3
+			}
+		}
+	}
+}
+
+##Event: Heydrich Assasinated
+country_event = {
+ id = pst.14
+ title = pst.14.title
+ desc = pst.14.desc
+ picture = GFX_report_event_germany_politician_handshake
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+	trigger = {
+	    tag = GER
+		date > 1941.1.1
+	}
+	option = {
+		name = pst.14.a
+		ai_chance = { factor = 1}
+		add_manpower = -10000
+		add_equipment_to_stockpile = {
+           type = infantry_equipment
+            amount = -1500
+            producer = GER
+        }
+		9 = {
+		    damage_building = {
+			    type = infrastructure
+				damage = 2
+			}
+		}
+	}
+}
 
 
