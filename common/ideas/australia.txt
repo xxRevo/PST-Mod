@@ -43,7 +43,8 @@ ideas = {
 				industrial_capacity_dockyard = -0.10
 			}
 		}
-		
+	####################
+	##############	
 		AST_great_depression_3 = {
 
 			allowed = {
@@ -85,7 +86,8 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 			}
 		}
-
+	####################
+	##############	
 		AST_invest_in_victory = {
 
 			allowed = {
@@ -517,11 +519,23 @@ ideas = {
 			available = {
 				if = {
 					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = AST_support_the_policy_of_appeasement
 				}
 			}
 		}
+		
+		AST_robert_g_menzies = {
 
+			
+			allowed = {
+				original_tag = AST
+			}
+
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
 		AST_jack_beasley = {
 
 			picture = generic_political_advisor_europe_3

@@ -102,7 +102,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_industrial_effort
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_syndicalist_industry
 		text = industrial_effort
 		prerequisite = { focus = ITA_ethiopian_war_logistics }
 		x = 0
@@ -285,7 +285,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_extra_tech_slot
-		icon = GFX_focus_research
+		icon = GFX_goal_oil_research
 		text = extra_tech_slot
 		prerequisite = { focus = ITA_industrial_effort_2 }
 		x = 1
@@ -411,7 +411,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_prospect_for_oil
-		icon = GFX_goal_generic_production
+		icon = GFX_agoal_2
 		text = ITA_prospect_for_oil
 		prerequisite = { focus = ITA_italian_highways }
 		available = {
@@ -553,7 +553,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_army_primacy
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_goal_army_guy_2
 		x = 4
 		y = 0
 		cost = 10
@@ -746,7 +746,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_air_innovation
-		icon = GFX_goal_generic_build_airforce
+		icon = GFX_goal_HOL_jachtkruiser
 		text = air_innovation
 		prerequisite = { focus = ITA_army_primacy focus = ITA_mare_nostrum }
 		x = 5
@@ -1244,7 +1244,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_albania_war_goal
-		icon = GFX_goal_generic_more_territorial_claims
+		icon = GFX_focus_BUL_albanian_inheritance
 		prerequisite = { focus = ITA_victoryinETH }
 		will_lead_to_war_with = ALB
 		x = 13
@@ -1269,7 +1269,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_pact_of_steel
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_BAT_germanisation
 		prerequisite = { focus = ITA_bulgaria_friend }
 		available = {
 			has_government = fascism
@@ -1315,7 +1315,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_greece_war_goal
-		icon = GFX_goal_generic_occupy_states_ongoing_war
+		icon = GFX_goal_flag_greece
 		prerequisite = { focus = ITA_pact_of_steel }
 		available = {
 			date > 1939.4.1

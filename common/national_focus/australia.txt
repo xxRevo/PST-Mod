@@ -1640,7 +1640,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_standard_gauge_railway
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_army_guy
 		x = 14
 		y = 0
 
@@ -1791,13 +1791,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			random_state = {
+			519 = {
 				limit = {
 					has_state_flag = AST_western_australian_government_railways_Inf1
 				}
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -1816,7 +1816,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			random_owned_controlled_state = {
+			519 = {
 				prioritize = { 522 }
 				limit = {
 					free_building_slots = {
@@ -1830,7 +1830,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 6
 					instant_build = yes
 				}
 				set_state_flag = AST_western_australian_government_railways_Inf1
@@ -1917,7 +1917,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_department_of_supply_and_development
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_factory_complex
 		prerequisite = { focus = AST_western_australian_government_railways }
 		x = 2
 		y = 2
@@ -2261,7 +2261,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_establish_advisory_war_council
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_doctrine_tank_warfare
 		x = 22
 		y = 0
 
@@ -2290,7 +2290,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_national_security_act
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_goal_generic_treasure
 		prerequisite = { focus = AST_establish_advisory_war_council }
 		x = -2
 		y = 1
@@ -2324,7 +2324,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_volunteer_defence_corps
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_army_guy
 		prerequisite = { focus = AST_establish_advisory_war_council }
 		x = 2
 		y = 1
@@ -2389,7 +2389,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_army_inventions_directorate
-		icon = GFX_focus_research
+		icon = GFX_goal_oil_research
 		prerequisite = { focus = AST_national_security_act }
 		x = -2
 		y = 2
@@ -2451,7 +2451,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_citizen_military_forces
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_army_guy_2
 		prerequisite = { focus = AST_volunteer_defence_corps }
 		x = 2
 		y = 2
@@ -2912,7 +2912,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_support_the_policy_of_appeasement
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_ENG_support_democracy
 		mutually_exclusive = { focus = AST_never_another_gallipoli }
 		x = 28
 		y = 0
