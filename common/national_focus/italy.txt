@@ -440,7 +440,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_libyan_refineries
-		icon = GFX_goal_generic_oil_refinery
+		icon = GFX_Desert_Warfare
 		text = ITA_libyan_refineries
 		prerequisite = { focus = ITA_prospect_for_oil }
 		available = {
@@ -1142,7 +1142,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_slovenia_dalmatia_claims
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_SER_form_yugoslavia
 		prerequisite = { focus = ITA_albania_war_goal }
 		available = {
 			#date > 1939.1.1

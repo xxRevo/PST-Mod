@@ -3,6 +3,16 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_Desert_Warfare"
+	texturefile = "gfx/interface/goals/Desert_Warfare.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_SER_form_yugoslavia"
+	texturefile = "gfx/interface/goals/SER_form_yugoslavia.dds"			
+	}	
+
+	SpriteType = {
 	name = "GFX_goal_flag_greece"
 	texturefile = "gfx/interface/goals/goal_flag_greece.dds"			
 	}	
@@ -456,6 +466,7 @@ spriteTypes = {
 	name = "GFX_goal_generic_national_unity"
 	texturefile = "gfx/interface/goals/goal_generic_national_unity.dds"			
 	}	
+
 	
 	SpriteType = {
 	name = "GFX_goal_generic_construct_infrastructure"

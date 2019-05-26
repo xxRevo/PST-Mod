@@ -71,8 +71,12 @@ focus_tree = {
 
 		cost = 5
 
+		available = {
+			date > 1938.3.3
+		}
+
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 
 		available = {
@@ -115,7 +119,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -152,7 +156,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -222,7 +226,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -295,7 +299,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 20
+			factor = 1
 		}
 
 		available = {
@@ -333,7 +337,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 
 		available = {
@@ -370,7 +374,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -407,7 +411,7 @@ focus_tree = {
 		cost = 5
 		
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -451,8 +455,12 @@ focus_tree = {
 
 		cost = 10
 
+		available = {
+			date > 1938.3.3
+		}
+
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 
 		available = {
@@ -508,7 +516,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -580,7 +588,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -621,7 +629,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 
 		available = {
@@ -662,7 +670,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -703,7 +711,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -748,7 +756,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 
 		available = {
@@ -791,7 +799,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 8
+			factor = 4000
 		}
 
 		available = {
@@ -876,7 +884,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -913,10 +921,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = NZL_national_roads_board
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
-			factor = 25
+			factor = 0
 		}
 
 		available = {
@@ -956,9 +964,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 			modifier = {
-				factor = 2
+				factor = 1
 				has_completed_focus = NZL_bureau_of_industry
 			}
 		}
@@ -995,9 +1003,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 4000
 			modifier = {
-				factor = 2
+				factor = 1
 				has_completed_focus = NZL_wairarapa_sheep_farms
 			}
 		}
@@ -1062,14 +1070,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 35
 			modifier = {
-				factor = 2
+				factor = 1
 				has_completed_focus = NZL_heavy_bombers
 			}
 		}
 
 		available = {
-
+                date > 1938.1.1
 		}
+
 
 		bypass = {
 
@@ -1100,9 +1109,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 4000
 			modifier = {
-				factor = 2
+				factor = 4000
 				has_completed_focus = NZL_domestic_arms_industry
 			}
 		}
@@ -1166,9 +1175,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 4000
 			modifier = {
-				factor = 2
+				factor = 1
 				has_completed_focus = NZL_department_of_scientific_and_industrial_research
 			}
 		}
@@ -1374,7 +1383,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 
 		available = {
@@ -1415,9 +1424,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 			modifier = {
-				factor = 2
+				factor = 1
 				has_completed_focus = NZL_industrial_conscription
 			}
 		}
@@ -1459,12 +1468,13 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
-
+                date > 1938.1.1
 		}
+
 
 		bypass = {
 
@@ -1500,9 +1510,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 			modifier = {
-				factor = 2
+				factor = 1
 				has_completed_focus = NZL_industrial_conscription
 			}
 		}
@@ -1565,7 +1575,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -1605,11 +1615,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
-
+                date > 1938.1.1
 		}
 
 		bypass = {
@@ -1645,7 +1655,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -1686,7 +1696,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -1730,11 +1740,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
-
+                date > 1938.1.1
 		}
 
 		bypass = {
@@ -1772,8 +1782,12 @@ focus_tree = {
 
 		cost = 10
 
+		available = {
+			date > 1938.3.3
+		}
+
 		ai_will_do = {
-			factor = 2
+			factor = 0
 		}
 
 		available = {
@@ -1812,7 +1826,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -1847,7 +1861,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -1889,7 +1903,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -1924,7 +1938,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -2037,7 +2051,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -2072,7 +2086,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -2133,7 +2147,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 30
+			factor = 1
 		}
 
 		available = {
@@ -2179,7 +2193,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
@@ -2214,7 +2228,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
