@@ -566,6 +566,206 @@ country_event = {
 	}
 }
 
+# Yugoslav Partisans 1
+country_event = {
+	id = italy.18
+	title = italy.18.t
+	desc = italy.18.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+		date > 1941.7.1
+                has_war_with = SOV
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.18.a
+		SOV = {
+                        add_manpower = 45000
+                        YUG = { set_state_owner = 107 }
+                        YUG = { set_state_owner = 104 }
+                        YUG = { set_state_owner = 108 }
+                        ITA = { set_state_controller = 107 }
+                       ITA = { set_state_controller = 104 }
+                       ITA = { set_state_controller = 108 }
+		}
+
+		YUG = {
+			load_oob = "yugoslav_partisans_1"
+                        add_manpower = 100000
+                        add_to_war = { targeted_alliance = SOV enemy = ITA }
+                        declare_war_on = { target = ITA type = annex_everything }
+                        declare_war_on = { target = HUN type = annex_everything }
+                        declare_war_on = { target = ROM type = annex_everything }
+                        declare_war_on = { target = BUL type = annex_everything }
+                        declare_war_on = { target = GER type = annex_everything }
+                        add_popularity = { ideology = communism popularity = 0.9 }
+                        add_ideas = partisanyugo
+create_country_leader = { name = 'Josip Broz Tito' desc = 'POLITICS_PETER_II_DESC' picture = 'Portrait_Yugoslavia_Josip_Broz_Tito.dds' expire = '1965.1.1' ideology = communism traits = { } }
+ add_political_power = 250
+add_stability = 0.90
+add_war_support = 0.90
+		}
+	}
+}
+
+# Yugoslav Partisans 1 OYUNDA YOK OYUNDA YOK
+country_event = {
+	id = italy.19
+	title = italy.18.t
+	desc = italy.18.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+		date > 1941.9.10
+                date < 1941.10.20
+                has_war_with = SOV
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.18.a
+		YUG = {
+			load_oob = "yugoslav_partisans_2"
+                        add_manpower = 50000
+		}
+	}
+}
+
+# Yugoslav Partisans 1 OYUNDA YOK OYUNDA YOK
+country_event = {
+	id = italy.20
+	title = italy.18.t
+	desc = italy.18.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+		date > 1941.11.10
+                date < 1941.12.20
+                has_war_with = SOV
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.18.a
+		YUG = {
+			load_oob = "yugoslav_partisans_3"
+                        add_manpower = 50000
+		}
+	}
+}
+
+# Yugoslav Partisans 1 OYUNDA YOK OYUNDA YOK
+country_event = {
+	id = italy.21
+	title = italy.18.t
+	desc = italy.18.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+		date > 1942.1.20
+                date < 1942.2.20
+                has_war_with = SOV
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.18.a
+		YUG = {
+			load_oob = "yugoslav_partisans_4"
+                        add_manpower = 50000
+		}
+	}
+}
+
+country_event = {
+	id = italy.24
+	title = italy.24.t
+	desc = italy.24.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+		date > 1938.1.1
+        107 = { is_owned_by = ITA }
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.24.a
+
+                     BUL = { transfer_state = 106 }
+}
+	option = {
+		name = italy.24.c
+                     ROM = { transfer_state = 106 }
+}
+	option = {
+		name = italy.24.g
+                     ITA = { transfer_state = 106 }
+}
+
+}
+# Yugoslav Partisans OYUNDA YOK
+country_event = {
+	id = italy.22
+	title = italy.18.t
+	desc = italy.18.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+		date > 1942.4.20
+                has_war_with = SOV
+	}
+
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.18.a
+
+		YUG = {
+			load_oob = "yugoslav_partisans_5"
+                        add_manpower = 50000
+		}
+	}
+}
+
 country_event = {
 	id = italy.17
 	title = italy.17.t
@@ -619,3 +819,33 @@ country_event = {
 	}
 	mean_time_to_happen = { days = 30 }
 }
+country_event = {
+	id = italy.23
+	title = italy.23.t
+	desc = italy.23.d
+	picture = GFX_report_event_yugoslavian_split
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ITA
+                107 = { is_owned_by = ITA }
+		date > 1938.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = italy.23.a
+		ITA = {
+                     HUN = { transfer_state = 45 }
+                     GER = { transfer_state = 764 }
+                     GER = { transfer_state = 102 }
+
+		}
+	}
+}
+
+

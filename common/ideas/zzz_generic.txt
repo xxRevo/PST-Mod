@@ -135,6 +135,28 @@ ideas = {
 			}
 		}
 
+		partisanyugo = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_volunteer_expedition_bonus
+
+			modifier = {
+				out_of_supply_factor = -0.10
+                                supply_consumption_factor = -0.10
+                                surrender_limit = 0.95
+                                partisan_effect = 0.40
+                                
+			}
+		}
+
 		internationalism = {
 			
 			allowed = {
