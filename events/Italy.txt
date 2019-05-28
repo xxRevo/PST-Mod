@@ -633,7 +633,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 
 	option = {
@@ -662,7 +662,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 
 	option = {
@@ -691,7 +691,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 
 	option = {
@@ -718,7 +718,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 
 	option = {
@@ -753,7 +753,7 @@ country_event = {
 
 
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 
 	option = {
