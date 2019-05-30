@@ -1,0 +1,244 @@
+spriteTypes = {	
+
+	#SOOOOOOOOOOOOOOOOOOOOOVIET
+SpriteType = {
+		name = "GFX_gwtank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t18.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t26.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_bt7.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t70.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t28.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t34.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t3485.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t54.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t35.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_kv1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_is2m.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_is7.dds"
+	}
+	
+############INFANTTRY
+
+SpriteType = {
+		name = "GFX_SOV_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_mosinm91.dds"
+	}
+
+SpriteType = {
+		name = "GFX_SOV_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_mosinm9130.dds"
+	}	
+	
+ SpriteType = {
+		name = "GFX_SOV_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_ppsh41.dds"
+	}
+ 
+ SpriteType = {
+		name = "GFX_SOV_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_svt40.dds"
+	}
+ 
+SpriteType = {
+		name = "GFX_SOV_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_zis5.dds"
+	}	
+ 
+ SpriteType = {
+		name = "GFX_SOV_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_m2.dds"
+	}
+ 
+ SpriteType = {
+		name = "GFX_SOV_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_m3a1scoutcar.dds"
+	}
+ 
+ SpriteType = {
+		name = "GFX_SOV_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_btr40.dds"
+	}
+ 
+SpriteType = {
+		name = "GFX_SOV_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_katysha.dds"
+	}	
+ 
+ 
+ ############VARIANTS
+### legkie tanki
+SpriteType = {
+		name = "GFX_SOV_basic_light_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_at1_t26.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_basic_light_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su5_t26.dds"
+	}
+     	SpriteType = {
+		name = "GFX_SOV_basic_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su6_t26.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_light_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_bt7a76mm_bt7.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_improved_light_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_bt7a_bt7.dds"
+	}
+     	SpriteType = {
+		name = "GFX_SOV_improved_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_bt4_bt7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_light_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su76_t70.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_advanced_light_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_osa76_t70.dds"
+	}
+     	SpriteType = {
+		name = "GFX_SOV_advanced_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_zsu37_t70.dds"
+	}
+	
+	
+	##srednie tanki
+    SpriteType = {
+		name = "GFX_SOV_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su85_t34.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su122_t34.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_saviszu37_t34.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_type63aa_t3485.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_egyptianart_t3485.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su100_t3485.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_obj263_is7.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_obj261_is7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_isu122_is2m.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_advanced_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_isu152_is2m.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_smk_t35.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_basic_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su14-1_t35.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su152_kv1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_improved_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su100y_kv1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_td_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_su122-54_t54.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_art_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_155GH52-SP-T55_t54.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_spaa_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_zsu_57_2_t54.dds"
+	}
+	
+	
+	}
+	
+	
+	
+	

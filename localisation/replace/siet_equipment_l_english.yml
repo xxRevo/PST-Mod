@@ -1,0 +1,175 @@
+﻿l_english:
+ 
+ SOV_infantry_equipment_0:0 "Vintovka Mosina Model 1891"
+ SOV_infantry_equipment_0_short:0 "Mosin M91"
+ SOV_infantry_equipment_0_desc:0 "After trials of several different repeating bolt action designs Russia adopted a new standard infantry rifle in 1891. It fires the 7.62x54r cartridge and is a combination of designs by Russian Sergei Mosin and Belgian Leon Nagant whose primary contribution was the magazine and feed system. The official Russian designation is “Three Line Rifle, Model of the Year 1891” but is more commonly known in the US as the Mosin Nagant M91. A “line” is a unit of measure equal to 1/10th of an inch. Production of the M91 took place at the Russian arsenals at Izhevsk, Tula, and Sestroryetsk. M91s were widely used in WWI." 
+ SOV_infantry_equipment_1:0 "Vintovka Mosina Model 1891/30"
+ SOV_infantry_equipment_1_short:0 "Mosin M91/30"
+ SOV_infantry_equipment_1_desc:0 "In 1930 "new" rifle was designated the "7,62 mm Rifle, Model of the Year 1891-30", more commonly known in the US as the M91/30. Changes included the front and rear sights and split barrel bands, receivers were replaced. Many rifles dated prior to 1930 are found in M91/30 configuration but retain the original markings on the barrel shank with dates prior to 1930. This is from programs, primarily post WWII, to update older rifles by the Soviets. Primary production ended in 1944 with few examples, mostly snipers, dated later. M91/30s were used as the basis for sniper rifles from the mid-'30s with several types of mounts and scopes."
+ SOV_infantry_equipment_2:0 "PPSh-41"
+ SOV_infantry_equipment_2_short:0 "PPSh-41"
+ SOV_infantry_equipment_2_desc:0 "PPSh-41 is a Soviet magazine-fed selective fire submachine gun designed by Georgi Shpagin as a cheap, simplified alternative to the PPD-40. Made largely of stamped steel, it can be loaded with either a box or drum magazine, and fires the 7.62×25mm Tokarev pistol round. The impetus for the development of the PPSh came partly from the Winter War against Finland, where the Finnish Army employed the Suomi KP/-31 submachine gun as a highly effective tool for close-quarter fighting. The PPSh saw extensive combat use during World War II and the Korean War. It was one of the major infantry weapons of the Soviet Armed Forces during World War II." 
+ SOV_infantry_equipment_3:0 "SVT-40"
+ SOV_infantry_equipment_3_desc:0 "Production of the SVT-38 was terminated in April 1940 and an improved design, the SVT-40, entered production. It was a more refined, lighter design with a modified magazine release. The handguard was now single-piece and the cleaning rod was housed under the barrel. Other changes were made to simplify manufacture. Production of this improved rifle began in July 1940 at Tula, and later at factories in Izhevsk and Podolsk. The SVT-40 was more often issued to non-commissioned officers and elite units like the Naval Infantry. Since these factories already had experience manufacturing the SVT-38, 70,000 SVT-40s were produced in 1940."
+ SOV_infantry_equipment_3_short:0 "SVT-40"
+ 
+ SOV_motorized_equipment_1:0 "ZiS-5"
+ SOV_motorized_equipment_1_desc:0 "The ZiS-5 was a 4x2 truck produced by Moscow ZIS factory in 1932-1958. It had a 68hp SV engine that was capable of propelling it at speeds of up to 60 km/h. The ZiS-5 could carry a single passenger in the cab with up to 20 men in the rear flatbed. Most notably, the ZiS-5 was used to carry the BM-8 Katyusha rocket launcher. The total length of ZiS-5 was around six meters with a total weight of 3.1 ton unloaded. The armament of the ZiS was generally nothing but the weapons the soldiers carried on them but sometimes, heavy machine gun was mounted on the rear flatbed."
+ 
+ SOV_mechanized_equipment_1:0 "M2 Half Track Lend-lease"
+ SOV_mechanized_equipment_1_short:0 "M2 Halftrack"
+ SOV_mechanized_equipment_1_desc:0 "M2 Half Track Car was a half-track armored vehicle produced by the United States during World War II. Its design drew upon half-tracks brought in from France in the 1930s, employing standard components supplied by U.S. truck manufacturers to speed production and reduce costs. About 800 M2 and M9 halftracks were sent to the Soviet Union."
+ SOV_mechanized_equipment_2:0 "M3A1 Half Track Lend-lease"
+ SOV_mechanized_equipment_2_short:0 "M3A1 Halftrack"
+ SOV_mechanized_equipment_2_desc:0 "The M3A1 Half-track was an American armored personnel carrier widely used by the Allies during World War II and in the Cold War. Derived from the M2 Half Track Car, the slightly longer M3A1 was extensively produced, with about 15,000 units and more than 50,000 derivative variants manufactured. M3A1 adopted a raised, armored mount for the .50 cal, and .30 cal machine guns could be used from mounts along the sides of the passenger compartment. The body was armored all around with armored shutter for radiator and a bulletproof windscreen."
+ SOV_mechanized_equipment_3:0 "BTR-40"
+ SOV_mechanized_equipment_3_desc:0 "The BTR-40 is a Soviet non-amphibious, wheeled armoured personnel carrier and reconnaissance vehicle. It is also the first mass-produced Soviet APC. The BTR-40's development began in early 1947 at the design bureau of the Gorkovsky Avtomobilny Zavod (Gorkovsky Automobile Factory). The concept was a successor to the BA-64B armoured car which went out of production in 1946. The BTR-40's design was based on the GAZ-63 four wheel drive truck. The BTR-40's armour is from 6 mm to 8 mm thick which gives it protection from small arms fire."
+ SOV_mechanized_equipment_3_short:0 "BTR-40"
+ 
+ SOV_motorized_rocket_equipment_1:0 "BM-13 Katyusha"
+ SOV_motorized_rocket_equipment_1_desc:0 "BM-13 Katyusha is a type of rocket artillery first built and fielded by the Soviet Union in World War II. Rocket artillery deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. They are fragile compared to artillery guns, but are inexpensive and easy to produce. Katyushas were usually mounted on trucks. This mobility gave the Katyusha another advantage: being able to deliver a large blow all at once, and then move before being attacked with counter-battery fire."
+ SOV_motorized_rocket_equipment_1_short:0 "Katyusha"
+ 
+ 
+ 
+ SOV_gw_tank_equipment:0 "T-18"
+ SOV_gw_tank_equipment_short:0 "T-18"
+ SOV_gw_tank_equipment_desc:0 "The T-18 light tank (also called MS-1 (Maliy Soprovozhdeniya, Small [Vehicle for] Support)) was the first Soviet-designed tank. Produced from 1928 to 1931, it was based on the Renault FT, with the addition of a vertically sprung suspension. The T-18 and its derivatives were essentially unsuccessful designs, but they gave Soviet industry its first experiences in designing armoured vehicles, and in the meantime a number of foreign tank designs were available for production."
+ SOV_light_tank_equipment_1:0 "T-26"
+ SOV_light_tank_equipment_1_short:0 "T-26"
+ SOV_light_tank_equipment_1_desc:0 "The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s and in World War II. It was a development of the British Vickers 6-Ton tank and was one of the most successful tank designs of the 1930s until its light armour became vulnerable to newer anti-tank guns. It was produced in greater numbers than any other tank of the period, with more than 11000 manufactured. During the 1930s, the USSR developed 53 variants of the T-26. Twenty-three of these were series-produced, others were experimental models."
+ SOV_light_tank_equipment_2:0 "BT-7"
+ SOV_light_tank_equipment_2_short:0 "BT-7"
+ SOV_light_tank_equipment_2_desc:0 "The Soviet wheeled caterpillar tank used in the 1930s–1940s. The third vehicle in the series of the Soviet light BT tanks. The BT-7 differed from its predecessors in the welded hull of a modified shape and a new engine. A total of 5556 vehicles of different variants were produced and saw action during the Khalkhyn Gol battles, Polish Campaign, Winter War and World War II."
+ SOV_light_tank_equipment_3:0 "T-70"
+ SOV_light_tank_equipment_3_short:0 "T-70"
+ SOV_light_tank_equipment_3_desc:0 "The T-70 was a light tank used by the Red Army during World War II, replacing both the T-60 scout tank for reconnaissance and the T-50 light infantry tank for infantry support. The T-70 was armed with a 45-mm L/46 gun Model 38 with forty-five rounds carried, and a coaxial 7.62-mm DT machine gun. The tank was operated by a driver and a commander who loaded and fired the gun. Armour thickness on the turret front was 60 mm, turret sides and rear: 35 mm, hull front and sides: 45 mm, roof and bottom: 10 mm."
+ SOV_medium_tank_equipment_1:0 "T-28"
+ SOV_medium_tank_equipment_1_short:0 "T-28"
+ SOV_medium_tank_equipment_1_desc:0 "The T-28 tank was developed by the Experimental Machine Design Bureau of the Voroshilov plant. The vehicle saw service on August 11, 1933. A total of 503 tanks were manufactured at the Leningrad Kirov Plant between 1933 and 1940. During mass production, the T-28 tank underwent a number of changes in design and modifications. The vehicles were used in the war with Finland in the winter of 1939–1940 and at the beginning of WWII."
+ SOV_medium_tank_equipment_2:0 "T-34"
+ SOV_medium_tank_equipment_2_short:0 "T-34"
+ SOV_medium_tank_equipment_2_desc:0 "The T-34 had a profound and lasting effect on the field of tank design. Although its armour and armament were surpassed later in the war, it has been credited as the most efficient and influential tank design of the war. The T-34 possessed an unprecedented combination of firepower, mobility, protection and ruggedness. Its 76.2 mm gun provided a substantial increase in firepower over any of its contemporaries; its heavy sloped armour was difficult to penetrate by most anti-tank weapons. When first encountered in 1941, the German tank general von Kleist called it "the finest tank in the world"."
+ SOV_medium_tank_equipment_3:0 "T-34-85"
+ SOV_medium_tank_equipment_3_short:0 "T-34-85"
+ SOV_medium_tank_equipment_3_desc:0 "Final modification of the T-34 tank of 1943. A new three-man gun turret allowed a more powerful 85-mm gun to be mounted. This greatly increased the combat effectiveness of the tank compared to its predecessor, the T-34-76. A total of more than 35,000, in several variants, were produced. Today the tank is still in service in several countries."
+ SOV_heavy_tank_equipment_1:0 "T-35"
+ SOV_heavy_tank_equipment_1_short:0 "T-35"
+ SOV_heavy_tank_equipment_1_desc:0 "The T-35 was a Soviet multi-turreted heavy tank of the interwar period and early Second World War that saw limited production and service with the Red Army. It was the only five-turreted heavy tank in the world to reach production, but proved to be slow and mechanically unreliable. Most of the T-35 tanks still operational at the time of Operation Barbarossa were lost due to mechanical failure rather than enemy action."
+ SOV_heavy_tank_equipment_2:0 "KV-1"
+ SOV_heavy_tank_equipment_2_short:0 "KV-1"
+ SOV_heavy_tank_equipment_2_desc:0 "Development started at the end of 1938. A prototype was produced in August 1939. The vehicle first saw combat in December 1939 at the Mannerheim Line. The tank was mass-produced from March 1940 through August 1942, with a total of 2,769 vehicles manufactured."
+ SOV_heavy_tank_equipment_3:0 "IS-2"
+ SOV_heavy_tank_equipment_3_short:0 "IS-2"
+ SOV_heavy_tank_equipment_3_desc:0 "IS-2 (Object 240) is a Soviet heavy tank during World War II. IS-2 was the most powerful and most heavily armored tanks of Soviet production period of the war, and one of the best tanks in the time in the world. Tanks of this type played an important role in the battles of 1944-1945, particularly distinguished themselves during the assault of the town. After the war, IS-2 have been upgraded and used in Soviet and Russian armies until 1995. Also, the IS-2 tanks were supplied to several countries and participated in some of the post-war armed conflicts."
+ SOV_modern_tank_equipment_1:0 "T-54 obr. 1948"
+ SOV_modern_tank_equipment_1_short:0 "T-54"
+ SOV_modern_tank_equipment_1_desc:0 "T-54 (Object 137) is a Soviet medium tank. Accepted for service in 1946, was regularly produced since 1947, constantly improving. Since 1958, its modification ,the T-55, was produced, adapted for combat operations under conditions of use of nuclear weapons. Issue of T-55 lasted until 1979. T-54 has been exported and is in service with the armed forces in many countries in the world, used in the majority of post-war local conflicts. Tank has become known for its superior reliability and simplicity, highly touted by many experts."
+ SOV_super_heavy_tank_equipment_1:0 "IS-7"
+ SOV_super_heavy_tank_equipment_1_short:0 "IS-7"
+  SOV_super_heavy_tank_equipment_1_desc:0 "IS-7 (Object 260) - experimental Soviet heavy tank. Developed in the years 1945-1947, the release was limited to six prototypes and a small number of pre-production vehicles, manufactured in 1949. Like its predecessors, designed to break through strong defensive lines of the enemy, IS-7 had a good armor protection. The most powerful tank of his time and the heaviest among Soviet tanks. Was not accepted in the Soviet Army, but many technical solutions have since been successfully used in serial tanks."
+ 
+ 
+ SOV_light_tank_artillery_equipment_1:0 "SU-5"
+ SOV_light_tank_artillery_equipment_1_short:0 "SU-5"
+ SOV_light_tank_artillery_equipment_1_desc:0 "The SU-5 is a soviet "Small Triplex" light self-propelled gun. Prototypes were developed and put through trials in 1934, and participated in a parade on Red Square. The vehicle never saw mass production."
+ SOV_light_tank_artillery_equipment_2:0 "BT-7A"
+ SOV_light_tank_artillery_equipment_2_short:0 "BT-7A"
+ SOV_light_tank_artillery_equipment_2_desc:0 "In 1934–1935 the design bureau of the Kharkiv Locomotive Factory developed this artillery modification of the BT-7. The new elliptical turret was equipped with the 76.2-mm CT-28 gun. A total of 155 artillery BT-7s were manufactured. The vehicles saw combat on the Karelian Isthmus, in Manchuria, and during the first period of the Great Patriotic War."
+ SOV_light_tank_artillery_equipment_3:0 "OSA-76"
+ SOV_light_tank_artillery_equipment_3_short:0 "OSA-76"
+ SOV_light_tank_artillery_equipment_3_desc:0 "The SU-76P alone could not solve the Red Army's lack of self-propelled guns, and there were attempts to utilise the chassis of T-60/T-70 tanks, which were mass-produced in 1941 to 1943. In autumn 1941, the GAZ Factory began, on its own initiative, the development of a light self-propelled gun designated the SU-71. However, it never entered full-scale production."
+ SOV_light_tank_destroyer_equipment_1:0 "AT-1"
+ SOV_light_tank_destroyer_equipment_1_short:0 "AT-1"
+ SOV_light_tank_destroyer_equipment_1_desc:0 "Experimental artillery tank (tank of artillery support) armed with 76.2 mm PS-3 or L-7 tank gun on the T-26 basis. Two fully armoured vehicles were built and tested in 1935, 10 AT-1 artillery tanks were planned to be built in 1936 but were cancelled. Never saw mass production."
+ SOV_light_tank_destroyer_equipment_2:0 "BT-7A 76.2mm L-11"
+ SOV_light_tank_destroyer_equipment_2_short:0 "BT-7A L-11"
+ SOV_light_tank_destroyer_equipment_2_desc:0 "In order to test the new artillery system, in 1939 the L-11 gun was set in the turret of the tank BT-7A. The tests were successful, but with the results, engineers had come to the conclusion that the gun L-11 was not suitable for use in BT tanks. BT-7/L-11 was released only in one sample."
+ SOV_light_tank_destroyer_equipment_3:0 "SU-76"
+ SOV_light_tank_destroyer_equipment_3_short:0 "SU-76"
+ SOV_light_tank_destroyer_equipment_3_desc:0 "The SU-76 (Samokhodnaya Ustanovka 76) was a Soviet self-propelled gun used during and after World War II. The SU-76 was based on a lengthened and widened version of the T-70 light tank chassis. Its simple construction made it the second most produced Soviet armoured vehicle of World War II, after the T-34 tank."
+ SOV_light_tank_aa_equipment_2:0 "BT-4"
+ SOV_light_tank_aa_equipment_2_short:0 "BT-4"
+ SOV_light_tank_aa_equipment_2_desc:0 "BT-4 was a design with welded hull and minor changes in the suspension. 3 prototypes produced (with partially riveted hull). (Placeholder, there wasn't any actual AA modification)"
+ SOV_light_tank_aa_equipment_1:0 "SU-6"
+ SOV_light_tank_aa_equipment_1_short:0 "SU-6"
+ SOV_light_tank_aa_equipment_1_desc:0 "AA based on T-26, developed in 1934. Armament of SU-6 was 76-mm anti-aircraft gun, which is located in a semi-open fighting compartment. For self-defense it was equipped with two machine guns DT-29 in the front and rear folding sheets. In 1935, a prototype of the SU-6 was made and passed the test, in which there were numerous breakdowns and overload of the installation, as well as lack of stability when shooting. As a result, SU-6 was not accepted."
+ SOV_light_tank_aa_equipment_3:0 "ZSU-37"
+ SOV_light_tank_aa_equipment_3_short:0 "ZSU-37"
+ SOV_light_tank_aa_equipment_3_desc:0 "The ZSU-37 was produced from 1944 to 1948, and 75 vehicles were built in total (only a few vehicles were produced before the war ended). It saw no service in WWII because the Luftwaffe did not send out missions in spring 1945. However, there was a self-propelled anti-aircraft artillery battalion equipped with 12 ZSU-37 SPAAGs by the end of 1945."
+ 
+ SOV_medium_tank_destroyer_equipment_2:0 "SU-85"
+ SOV_medium_tank_destroyer_equipment_2_short:0 "SU-85"
+ SOV_medium_tank_destroyer_equipment_2_desc:0 "The SU-85 (Samokhodnaya ustanovka 85) was a Soviet self-propelled gun used during World War II, based on the chassis of the T-34 medium tank. Earlier Soviet self-propelled guns were meant to serve as either assault guns, such as the SU-122, or as tank destroyers; the SU-85 fell into the latter category. The designation "85" signifies the bore of the vehicle's armament, the 85 mm D-5S gun."
+ 
+ SOV_medium_tank_artillery_equipment_2:0 "SU-122"
+ SOV_medium_tank_artillery_equipment_2_short:0 "SU-122"
+ SOV_medium_tank_artillery_equipment_2_desc:0 "The SU-122 (from Samokhodnaya Ustanovka 122 mm) was a Soviet self-propelled howitzer or assault gun used during World War II. The number "122" in the designation represents the caliber of the main armament—a 122 mm M-30S howitzer. The chassis was that of the T-34. SU-122 production began in December 1942 with 27 vehicles built that month.The original plan for production beyond that point was to produce 100 SU-122s each month. Production continued until the summer of 1944, by which time a total of about 1150 SU-122s had been built."
+ 
+ SOV_medium_tank_aa_equipment_2:0 "ZSU 37MM T-34 Savin's turret"
+ SOV_medium_tank_aa_equipment_2_short:0 "ZSU-37 T-34"
+ SOV_medium_tank_aa_equipment_2_desc:0 "History of the Savin's group works over the tower for ZSU is interesting. Works on the turret were completed in a year, but a large number of obstacles didn't allow a group of designers to realize their project in the "iron". September 14, 1941 the group moves in the Chkalov factory 174, which was able to manufacture several variants of drive mechanisms of anti-aircraft installations, but company's management didn't want to engage in experimental work. Moreover, after arrival of the designers they were met ungraciously: "drawing tables were thrown away and equipment was destroyed"."
+ 
+ 
+ SOV_medium_tank_aa_equipment_3:0 "Type 63 Anti-Aircraft gun"
+ SOV_medium_tank_aa_equipment_3_short:0 "Type 63 AA gun"
+ SOV_medium_tank_aa_equipment_3_desc:0 "The Type 63 is a Chinese self-propelled anti-aircraft gun based on the Type 58 medium tank. Turret was replaced by an open-top box turret armed with twin Type 63 37mm AA guns. The guns were loaded manually with 5-round clips. While the Type 63 was on par with contemporary anti-aircraft systems, due to the lack of hydraulic elevation systems, the guns had to be elevated manually. Because of this, the Type 63 was ineffective against fast moving, low flying aircraft. Nevertheless, due to its rate of fire, it was found to be an effective ground support weapon."
+ 
+ SOV_medium_tank_artillery_equipment_3:0 "T-34/122 D-30"
+ SOV_medium_tank_artillery_equipment_3_short:0 "T-34/122"
+ SOV_medium_tank_artillery_equipment_3_desc:0 "This Egyptian conversion was a self-propelled howitzer armed with a 122 mm D-30 howitzer in a heavily modified turret. The changes included flat-plate extensions in the front, sides, rear and top of the turret."
+ 
+ SOV_medium_tank_destroyer_equipment_3:0 "SU-100"
+ SOV_medium_tank_destroyer_equipment_3_short:0 "SU-100"
+ SOV_medium_tank_destroyer_equipment_3_desc:0 "The SU-100 was a Soviet tank destroyer armed with a powerful 100mm anti-tank gun in a fixed superstructure. It was used extensively during the last year of World War II and saw service for many years afterwards with the armies of Soviet allies around the world. The SU-100 saw extensive service during the last year of the war. By July 1945, 2335 SU-100s had been built. It was withdrawn from Soviet service in 1957 but many vehicles were transferred to reserve stocks. Some exist to this day in the Russian Army holding facilities."
+ 
+ SOV_super_heavy_tank_destroyer_equipment_1:0 "Object 263"
+ SOV_super_heavy_tank_destroyer_equipment_1_short:0 "Obj. 263"
+ SOV_super_heavy_tank_destroyer_equipment_1_desc:0 "The Object 263 is a Soviet tank destroyer. The development of a heavy tank destroyer on the basis of the IS-7 heavy tank was started in 1950. Three design projects were developed, one of which resulted in a full-size wooden prototype. However, further development was discontinued due to phasing out the IS-7 mass-production."
+ 
+ SOV_super_heavy_tank_artillery_equipment_1:0 "Object 261"
+ SOV_super_heavy_tank_artillery_equipment_1_short:0 "Obj. 261"
+ SOV_super_heavy_tank_artillery_equipment_1_desc:0 "The Object 261 is a Soviet self-propelled gun. Developed on the basis of the IS-7 by the design bureaus of the Kirov Plants in Chelyabinsk and Leningrad. The project was launched in 1947, but was canceled while still in the design phase."
+ 
+ SOV_heavy_tank_destroyer_equipment_3:0 "ISU-122"
+ SOV_heavy_tank_destroyer_equipment_3_short:0 "ISU-122"
+ SOV_heavy_tank_destroyer_equipment_3_desc:0 "The ISU-122 was a Soviet self-propelled gun used during World War II, mostly in the anti-tank role. A prototype of the ISU-122 heavy self-propelled gun was built at the Chelyabinsk Kirov Plant (ChKZ), in 1943. The design shared the chassis of the ISU-152 self-propelled gun and differed only in armament. Advantage of rearming the ISU was increased direct fire range against heavy German tanks. "
+ 
+ SOV_heavy_tank_artillery_equipment_3:0 "ISU-152"
+ SOV_heavy_tank_artillery_equipment_3_short:0 "ISU-152"
+ SOV_heavy_tank_artillery_equipment_3_desc:0 "ISU-152 was a Soviet multirole fully enclosed and armored assault/self-propelled gun, developed and used during World War II, with a subsequent use, mainly in the Soviet military, until the 1970s. It gained a nickname of zveroboy (Russian: Зверобой; "Beast killer") for its rare ability to knock out the heaviest German tanks and tank destroyers. The ISU-152 self-propelled gun combined three battle roles : heavy assault gun, heavy tank destroyer and heavy self-propelled artillery. Ammunition consisted of a 43.56 kg high-explosive shell, or a 48.78 kg armour-piercing shell."
+ 
+ SOV_heavy_tank_destroyer_equipment_1:0 "SMK"
+ SOV_heavy_tank_destroyer_equipment_1_short:0 "SMK"
+ SOV_heavy_tank_destroyer_equipment_1_desc:0 "SMK (named after Sergei Mironovich Kirov - the assassinated party official) was an armored vehicle prototype developed by the USSR prior to the WW2. Only one was built and after a poor showing against other designs the project was dropped. The SMK was among the designs competing to replace the unreliable and expensive T-35 multi-turreted heavy tank. A design team under Josef Kotin at the Kirovski Works at Leningrad designed the tank. The SMK's armament was a short 76.2 mm gun in the upper centrally placed turret and a 45 mm weapon in the forward turret."
+ 
+ SOV_heavy_tank_artillery_equipment_1:0 "SU-14-1"
+ SOV_heavy_tank_artillery_equipment_1_short:0 "SU-14-1"
+ SOV_heavy_tank_artillery_equipment_1_desc:0 "The SU-14 was a prototype Soviet heavy SPG built on a T-35 chassis. It carried a 152.4 mm Br-2 (also called Model 1935) cannon which could fire 43 kg shells at ranges up to 20 km. Its armour was 20 to 30 mm thick. It never entered serial production. Work on the vehicle began in 1933, with a prototype built a year later. In 1937, the prototype successfully completed a series of performance tests. It was expected to go into production the following year. However,  Chief Designer - PN Siaczyntowa was removed from the program, thus halting further development of the project."
+ 
+ SOV_heavy_tank_artillery_equipment_2:0 "SU-100-Y"
+ SOV_heavy_tank_artillery_equipment_2_short:0 "SU-100-Y"
+ SOV_heavy_tank_artillery_equipment_2_desc:0 "The SU-100Y was a Soviet prototype self-propelled gun, developed from the prototype T-100 tank. It was developed during the Winter War with Finland to include a 152 mm gun to destroy concrete defensive structures like bunkers and anti-tank obstacles. It did not see service before the end of the war but was brought into use in the Second World War in defence of Moscow."
+ 
+ SOV_heavy_tank_destroyer_equipment_2:0 "SU-152"
+ SOV_heavy_tank_destroyer_equipment_2_short:0 "SU-152"
+ SOV_heavy_tank_destroyer_equipment_2_desc:0 "The SU-152 (Samokhodnaya ustanovka-152) was a Soviet self-propelled heavy howitzer used during WW II. It mounted a 152 mm gun-howitzer on the chassis of a KV-1S heavy tank. Later production used an IS tank chassis and was re-designated as ISU-152. Because of its adopted role as an impromptu heavy tank destroyer, capable of knocking out the heaviest German armoured vehicles—Tiger and Panther tanks, and Elefant tank destroyers—it was nicknamed Zveroboy ("Beast Slayer")."
+ 
+ SOV_modern_tank_artillery_equipment_1:0 "155GH52-SP-T55"
+ SOV_modern_tank_artillery_equipment_1_short:0 "155GH52-SP-T55"
+ SOV_modern_tank_artillery_equipment_1_desc:0 "In the early 2000s, the Finnish company Patria Vammas Co tried to create SPG for Egypt. In 1998, Tampella AB industries created howitzer 155 GH 52 APU, which is still in service in Egyptians army. As chassis they decided to try the old T-55 - as tanks they were not very good, but as a chassis for self-propelled guns - very even. Vehicle was equipped with external hydraulic outriggers, which are didn't allow swinging after the shot, and remove the load from the brake.
+ Egyptians were unable to produce these vehicles."
+ 
+ SOV_modern_tank_destroyer_equipment_1:0 "SU-122-54"
+ SOV_modern_tank_destroyer_equipment_1_short:0 "SU-122-54"
+ SOV_modern_tank_destroyer_equipment_1_desc:0 "SU-122-54 (Object 600)- Self-propelled 122mm gun, based on the T-54A. Between 1955 and 1957, 77 vehicles were built. The SU-122-54 had a modified chassis, with small spaces between the first, second and fourth pair of wheels and a large gap between the third, similar to the T-62's and a superstructure, built into the hull, housing the 122 mm D-49 L/48.4 gun. The vehicle carries 32 rounds. The secondary armament consisted of 2 KPVT heavy machine guns, one mounted as an AA machine gun near the commander's hatch and the other mounted coaxially with the main gun."
+ 
+ SOV_modern_tank_aa_equipment_1:0 "ZSU-57-2"
+ SOV_modern_tank_aa_equipment_1_short:0 "ZSU-57-2"
+ SOV_modern_tank_aa_equipment_1_desc:0 "The ZSU-57-2 (Object 500) is a Soviet self-propelled anti-aircraft gun (SPAAG), armed with 2 57 mm autocannons. 'ZSU' stands for Zenitnaya Samokhodnaya Ustanovka, meaning "anti-aircraft self-propelled mount". It was the first Soviet mass-produced tracked SPAAG. In the USSR it had the unofficial nickname "Sparka", meaning "pair", referring to the twin autocannon with which the vehicle is armed. Soviet engineers designed a vehicle that used a modified T-54 chassis, with four twin road wheels per side instead of five, and much thinner armour."
+ 
+ 
+ 
+ 
+ 
+ 
