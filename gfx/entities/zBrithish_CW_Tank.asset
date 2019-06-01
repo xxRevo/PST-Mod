@@ -1,0 +1,538 @@
+#######
+# CANADA
+#######
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+	entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "CAN_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "CAN_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "medium_armor_entity"
+		name = "CAN_medium_armor_entity"
+		pdxmesh = "CAN_tank_medium_grizzly_mesh"
+
+	}
+	
+	entity = {
+		clone = "CAN_medium_armor_entity"
+		name = "CAN_medium_armor_0_entity"
+		pdxmesh = "CAN_tank_medium_ram_mesh"
+
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "CAN_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "CAN_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "CAN_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "CAN_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "CAN_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "CAN_modern_armor_entity"
+	}
+	
+	entity = {
+		clone = "ENG_amphibious_armor_entity"
+		pdxmesh = "ENG_amphibious_armor_mesh"
+		name = "CAN_amphibious_armor_entity"
+	}	
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#######
+# Australia 
+#######
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "AST_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "AST_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "AST_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "AST_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "AST_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "AST_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "AST_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "AST_modern_armor_entity"
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#######
+# New Zealand
+#######
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+	entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "NZL_light_armor_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "NZL_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "NZL_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "NZL_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "NZL_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "NZL_heavy_armor_2_entity"
+	}
+	
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "NZL_modern_armor_entity"
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#######
+# British Raj 
+#######
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "RAJ_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "RAJ_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "RAJ_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "RAJ_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "RAJ_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "RAJ_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "RAJ_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "RAJ_modern_armor_entity"
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#######
+# British Malay
+#######
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "MAL_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "MAL_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "MAL_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "MAL_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "MAL_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "MAL_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "MAL_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "MAL_modern_armor_entity"
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#######
+# South Africa
+#######
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "SAF_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "SAF_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "SAF_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "SAF_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "SAF_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "SAF_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "SAF_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "SAF_modern_armor_entity"
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#For  Kaiserreich Mod, It may override it, but thats the point. 
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+#######
+# GREAT BRITAN GBR
+#######
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "GBR_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "GBR_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "GBR_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "GBR_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "GBR_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "GBR_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "GBR_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "GBR_modern_armor_entity"
+	}
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
+#######
+# India DEH
+#######
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "DEH_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "DEH_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "DEH_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "DEH_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "DEH_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "DEH_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "DEH_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "DEH_modern_armor_entity"
+	}
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
+#######
+# WEST INDIES CAF
+#######
+
+		entity = {
+		clone = "ENG_light_armor_1_entity"
+		pdxmesh = "ENG_light_armor_1_mesh"
+		name = "CAF_light_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_light_armor_2_entity"
+		pdxmesh = "ENG_light_armor_2_mesh"
+		name = "CAF_light_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_1_entity"
+		pdxmesh = "ENG_medium_armor_1_mesh"
+		name = "CAF_medium_armor_1_entity"
+	}
+	
+	entity = {
+		clone = "ENG_medium_armor_2_entity"
+		pdxmesh = "ENG_medium_armor_2_mesh"
+		name = "CAF_medium_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_0_entity"
+		pdxmesh = "ENG_heavy_armor_0_mesh"
+		name = "CAF_heavy_armor_0_entity"
+	}
+	
+	entity = {
+		clone = "ENG_heavy_armor_2_entity"
+		pdxmesh = "ENG_heavy_armor_2_mesh"
+		name = "CAF_heavy_armor_2_entity"
+	}
+	
+	entity = {
+		clone = "ENG_super_heavy_armor_entity"
+		pdxmesh = "ENG_super_heavy_armor_mesh"
+		name = "CAF_super_heavy_armor_entity"
+	}
+	
+	
+	entity = {
+		clone = "ENG_modern_armor_entity"
+		pdxmesh = "ENG_modern_armor_mesh"
+		name = "CAF_modern_armor_entity"
+	}
