@@ -3,6 +3,16 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_flag_canada"
+	texturefile = "gfx/interface/goals/goal_flag_canada.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ENG_tank"
+	texturefile = "gfx/interface/goals/ENG_tank.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_Desert_Warfare"
 	texturefile = "gfx/interface/goals/Desert_Warfare.dds"			
 	}	

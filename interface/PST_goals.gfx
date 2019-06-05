@@ -2,6 +2,11 @@ spriteTypes = {
 
 	#### Spot mod stuff
 	SpriteType = {
+	name = "GFX_ENG_tank"
+	texturefile = "gfx/interface/goals/ENG_tank.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_goal_appeal_to_stalin"
 	texturefile = "gfx/interface/goals/goal_appeal_to_stalin.dds"			
 	}

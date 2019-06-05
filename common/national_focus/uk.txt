@@ -126,7 +126,7 @@ focus_tree = {
 	
 	focus = {
 		id = limited_rearmament_focus
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_goal_munitions_factories
 		x = 5
 		y = 0
 		cost = 10
@@ -228,7 +228,7 @@ focus_tree = {
 	focus = {
 		id = ENG_tank_focus
 		prerequisite = { focus = limited_rearmament_focus }
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_ENG_tank
 		x = 0
 		y = 1
 		relative_position_id = limited_rearmament_focus
@@ -639,7 +639,7 @@ focus_tree = {
 		id = uk_industrial_focus
 		text = industrial_effort
 		prerequisite = { focus = limited_rearmament_focus }
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_IRE_heavy_industry
 		x = -2
 		y = 1
 		relative_position_id = limited_rearmament_focus
@@ -663,7 +663,7 @@ focus_tree = {
 	focus = {
 		id = uk_extra_tech_slot
 		text = extra_tech_slot
-		icon = GFX_focus_research
+		icon = GFX_goal_military_research
 		prerequisite = { focus = uk_industrial_focus }
 		x = 0
 		y = 1
@@ -704,7 +704,7 @@ focus_tree = {
 
 		continue_if_invalid = yes
 
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_buckingham
 		x = 4
 		y = 1
 		relative_position_id = limited_rearmament_focus
@@ -776,7 +776,7 @@ focus_tree = {
 			}
 		} #at war with major or ger in rhineland or high threat
 		prerequisite = { focus = uk_extra_tech_slot }
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_military_academy
 		x = 0
 		y = 1
 		relative_position_id = uk_extra_tech_slot
@@ -1158,7 +1158,7 @@ focus_tree = {
 		available = { 
 			date > 1938.4.1 
 		}
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_goal_HOL_night_fighter
 		x = -1
 		y = 2
 		relative_position_id = air_rearmament_focus
@@ -1255,7 +1255,7 @@ focus_tree = {
 	focus = {
 		id = naval_rearmament_focus
 		prerequisite = { focus = limited_rearmament_focus }
-		icon = GFX_goal_generic_construct_naval_dockyard 
+		icon = GFX_goal_AST_upgrade_reserves
 		x = 6
 		y = 1
 		relative_position_id = limited_rearmament_focus
@@ -3079,7 +3079,7 @@ focus_tree = {
 		available = {
 			is_in_faction_with = RAJ
 		} 
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_PRF_new_india
 		x = -2
 		y = 1
 		relative_position_id = uk_commonwealth_focus
@@ -3182,7 +3182,7 @@ focus_tree = {
 		bypass = {
 			AST = { exists = no }
 		}
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_AST_white_australasia
 		x = 0
 		y = 1
 		relative_position_id = uk_commonwealth_focus
@@ -3291,7 +3291,7 @@ focus_tree = {
 		available = {
 			is_in_faction_with = NZL
 		} 
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_AST_new_guard
 		x = 0
 		y = 1
 		relative_position_id = uk_australia_focus
@@ -3408,7 +3408,7 @@ focus_tree = {
 		available = {
 			is_in_faction_with = CAN
 		} 
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_flag_canada
 		x = -1
 		y = 3
 		relative_position_id = uk_commonwealth_focus
@@ -3516,7 +3516,7 @@ focus_tree = {
 		available = {
 			is_in_faction_with = SAF
 		} 
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_HOL_policy_south_africa
 		x = 1
 		y = 3
 		relative_position_id = uk_commonwealth_focus
