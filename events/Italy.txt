@@ -577,7 +577,7 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		date > 1941.7.1
+		date > 1948.7.1
                 has_war_with = SOV
 	}
 
@@ -627,8 +627,8 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		date > 1941.9.10
-                date < 1941.10.20
+		date > 1948.9.10
+                date < 1948.10.20
                 has_war_with = SOV
 	}
 
@@ -656,8 +656,8 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		date > 1941.11.10
-                date < 1941.12.20
+		date > 1948.11.10
+                date < 1948.12.20
                 has_war_with = SOV
 	}
 
@@ -685,8 +685,8 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		date > 1942.1.20
-                date < 1942.2.20
+		date > 1948.1.20
+                date < 1948.2.20
                 has_war_with = SOV
 	}
 
@@ -713,7 +713,7 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		date > 1938.1.1
+		date > 1948.1.1
         107 = { is_owned_by = ITA }
 	}
 
@@ -747,7 +747,7 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		date > 1942.4.20
+		date > 1948.4.20
                 has_war_with = SOV
 	}
 
@@ -830,7 +830,7 @@ country_event = {
 	trigger = {
 		tag = ITA
                 107 = { is_owned_by = ITA }
-		date > 1938.1.1
+		date > 1948.1.1
 	}
 
 	mean_time_to_happen = {
